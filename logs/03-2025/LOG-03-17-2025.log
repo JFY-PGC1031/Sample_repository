@@ -1,0 +1,1301 @@
+2025-03-17 10:30:48,217 | Log saved successfully fro KIDC0106            .
+2025-03-17 10:30:48,236 | Employee ID:KIDC0106 | Attendance Date: 2025-02-19 00:00:00 | Logs Time: 2025-02-19 17:20:00 | IP Address: 122.54.123.182
+2025-03-17 10:30:48,449 | Log saved successfully fro PGC0056             .
+2025-03-17 10:30:48,459 | Employee ID:PGC0056 | Attendance Date: 2025-02-17 00:00:00 | Logs Time: 2025-02-17 21:54:00 | IP Address: 180.190.229.53
+2025-03-17 10:30:48,512 | Log saved successfully fro PGC0056             .
+2025-03-17 10:30:48,525 | Employee ID:PGC0056 | Attendance Date: 2025-02-21 00:00:00 | Logs Time: 2025-02-21 20:36:00 | IP Address: 180.190.214.54
+2025-03-17 10:30:48,585 | Log saved successfully fro PGC0670             .
+2025-03-17 10:30:48,602 | Employee ID:PGC0670 | Attendance Date: 2025-02-18 00:00:00 | Logs Time: 2025-02-18 17:53:00 | IP Address: 209.35.161.138
+2025-03-17 10:30:48,638 | Log saved successfully fro PGC1089             .
+2025-03-17 10:30:48,651 | Employee ID:PGC1089 | Attendance Date: 2025-02-24 00:00:00 | Logs Time: 2025-02-24 21:58:00 | IP Address: 130.105.148.104
+2025-03-17 10:30:48,651 | Done processing the data for invalid logout.
+2025-03-17 10:30:49,300 | Log saved successfully fro PGC1225.
+2025-03-17 10:30:49,310 | Employee ID: PGC1225 | Attendance Date: 2024-11-20 00:00:00 | Logs Time: 11-20-2024 06:59:57 PM | IP Address: 10.63.11.96
+2025-03-17 10:30:49,427 | Log saved successfully fro PRC0964.
+2025-03-17 10:30:49,440 | Employee ID: PRC0964 | Attendance Date: 2024-11-20 00:00:00 | Logs Time: 11-20-2024 07:01:35 PM | IP Address: 10.63.11.96
+2025-03-17 10:30:49,533 | Log saved successfully fro PGC0993.
+2025-03-17 10:30:49,544 | Employee ID: PGC0993 | Attendance Date: 2024-11-21 00:00:00 | Logs Time: 11-21-2024 05:30:59 PM | IP Address: 10.63.3.18
+2025-03-17 10:30:49,639 | Log saved successfully fro PGC1451.
+2025-03-17 10:30:49,646 | Employee ID: PGC1451 | Attendance Date: 2024-11-21 00:00:00 | Logs Time: 11-21-2024 08:46:00 PM | IP Address: 10.63.3.18
+2025-03-17 10:30:49,711 | Log saved successfully fro PGC1225.
+2025-03-17 10:30:49,716 | Employee ID: PGC1225 | Attendance Date: 2024-12-12 00:00:00 | Logs Time: 12-12-2024 06:18:09 PM | IP Address: 10.63.11.170
+2025-03-17 10:30:49,753 | Log saved successfully fro PRC0964.
+2025-03-17 10:30:49,759 | Employee ID: PRC0964 | Attendance Date: 2024-12-12 00:00:00 | Logs Time: 12-12-2024 06:25:51 PM | IP Address: 10.63.11.170
+2025-03-17 10:30:49,840 | Log saved successfully fro PGC0969.
+2025-03-17 10:30:49,851 | Employee ID: PGC0969 | Attendance Date: 2025-02-25 00:00:00 | Logs Time: 02-25-2025 05:26:00 PM | IP Address: 10.63.24.77
+2025-03-17 10:30:49,951 | Log saved successfully fro PRC1020.
+2025-03-17 10:30:49,958 | Employee ID: PRC1020 | Attendance Date: 2025-02-25 00:00:00 | Logs Time: 02-25-2025 05:37:00 PM | IP Address: 10.63.24.77
+2025-03-17 10:30:50,038 | Log saved successfully fro PGC1225.
+2025-03-17 10:30:50,049 | Employee ID: PGC1225 | Attendance Date: 2024-10-17 00:00:00 | Logs Time: 10-17-2024 04:35:53 PM | IP Address: 10.63.11.132
+2025-03-17 10:30:50,143 | Log saved successfully fro PGC1031.
+2025-03-17 10:30:50,152 | Employee ID: PGC1031 | Attendance Date: 2024-10-17 00:00:00 | Logs Time: 10-17-2024 05:10:45 PM | IP Address: 10.63.11.132
+2025-03-17 10:30:50,152 | Done processing the data for login IP address sharing.
+2025-03-17 10:30:50,511 | Log saved successfully fro PGC1225.
+2025-03-17 10:30:50,521 | Employee ID: PGC1225 | Attendance Date: 2024-11-14 00:00:00 | Logs Time: 11-14-2024 06:21:10 PM | IP Address: 10.63.11.170
+2025-03-17 10:30:50,581 | Log saved successfully fro PRC0964.
+2025-03-17 10:30:50,590 | Employee ID: PRC0964 | Attendance Date: 2024-11-14 00:00:00 | Logs Time: 11-14-2024 06:31:26 PM | IP Address: 10.63.11.170
+2025-03-17 10:30:50,770 | Log saved successfully fro PRC1027.
+2025-03-17 10:30:50,779 | Employee ID: PRC1027 | Attendance Date: 2024-08-22 00:00:00 | Logs Time: 08-22-2024 05:07:57 PM | IP Address: 10.63.11.126
+2025-03-17 10:30:50,882 | Log saved successfully fro PRC0965.
+2025-03-17 10:30:50,894 | Employee ID: PRC0965 | Attendance Date: 2024-08-22 00:00:00 | Logs Time: 08-22-2024 07:11:04 PM | IP Address: 10.63.11.126
+2025-03-17 10:30:50,994 | Log saved successfully fro PGC0855.
+2025-03-17 10:30:51,004 | Employee ID: PGC0855 | Attendance Date: 2024-10-16 00:00:00 | Logs Time: 10-16-2024 06:20:01 PM | IP Address: 10.63.11.222
+2025-03-17 10:30:51,078 | Log saved successfully fro PGC1225.
+2025-03-17 10:30:51,089 | Employee ID: PGC1225 | Attendance Date: 2024-10-16 00:00:00 | Logs Time: 10-16-2024 06:21:44 PM | IP Address: 10.63.11.222
+2025-03-17 10:30:51,177 | Log saved successfully fro PGC1225.
+2025-03-17 10:30:51,186 | Employee ID: PGC1225 | Attendance Date: 2024-07-31 00:00:00 | Logs Time: 07-31-2024 05:48:40 PM | IP Address: 10.63.11.172
+2025-03-17 10:30:51,303 | Log saved successfully fro PRC0964.
+2025-03-17 10:30:51,313 | Employee ID: PRC0964 | Attendance Date: 2024-07-31 00:00:00 | Logs Time: 07-31-2024 06:35:53 PM | IP Address: 10.63.11.172
+2025-03-17 10:30:51,404 | Log saved successfully fro PGC0904.
+2025-03-17 10:30:51,414 | Employee ID: PGC0904 | Attendance Date: 2024-08-07 00:00:00 | Logs Time: 08-07-2024 07:07:20 PM | IP Address: 10.63.11.129
+2025-03-17 10:30:51,514 | Log saved successfully fro PRC0965.
+2025-03-17 10:30:51,526 | Employee ID: PRC0965 | Attendance Date: 2024-08-07 00:00:00 | Logs Time: 08-07-2024 06:46:23 PM | IP Address: 10.63.11.129
+2025-03-17 10:30:51,526 | Done processing the data for logout IP address sharing.
+2025-03-17 10:34:22,139 | Log saved successfully fro KIDC0106            .
+2025-03-17 10:34:22,151 | Employee ID:KIDC0106 | Attendance Date: 2025-02-19 00:00:00 | Logs Time: 2025-02-19 17:20:00 | IP Address: 122.54.123.182
+2025-03-17 10:34:22,234 | Log saved successfully fro PGC0056             .
+2025-03-17 10:34:22,248 | Employee ID:PGC0056 | Attendance Date: 2025-02-17 00:00:00 | Logs Time: 2025-02-17 21:54:00 | IP Address: 180.190.229.53
+2025-03-17 10:34:22,289 | Log saved successfully fro PGC0056             .
+2025-03-17 10:34:22,304 | Employee ID:PGC0056 | Attendance Date: 2025-02-21 00:00:00 | Logs Time: 2025-02-21 20:36:00 | IP Address: 180.190.214.54
+2025-03-17 10:34:22,354 | Log saved successfully fro PGC0670             .
+2025-03-17 10:34:22,363 | Employee ID:PGC0670 | Attendance Date: 2025-02-18 00:00:00 | Logs Time: 2025-02-18 17:53:00 | IP Address: 209.35.161.138
+2025-03-17 10:34:22,427 | Log saved successfully fro PGC1089             .
+2025-03-17 10:34:22,439 | Employee ID:PGC1089 | Attendance Date: 2025-02-24 00:00:00 | Logs Time: 2025-02-24 21:58:00 | IP Address: 130.105.148.104
+2025-03-17 10:34:22,440 | Done processing the data for invalid logout.
+2025-03-17 10:34:22,807 | Log saved successfully fro PGC1225.
+2025-03-17 10:34:22,820 | Employee ID: PGC1225 | Attendance Date: 2024-12-12 00:00:00 | Logs Time: 12-12-2024 06:18:09 PM | IP Address: 10.63.11.170
+2025-03-17 10:34:22,893 | Log saved successfully fro PRC0964.
+2025-03-17 10:34:22,902 | Employee ID: PRC0964 | Attendance Date: 2024-12-12 00:00:00 | Logs Time: 12-12-2024 06:25:51 PM | IP Address: 10.63.11.170
+2025-03-17 10:34:22,982 | Log saved successfully fro PGC1225.
+2025-03-17 10:34:22,997 | Employee ID: PGC1225 | Attendance Date: 2024-11-20 00:00:00 | Logs Time: 11-20-2024 06:59:57 PM | IP Address: 10.63.11.96
+2025-03-17 10:34:23,090 | Log saved successfully fro PRC0964.
+2025-03-17 10:34:23,105 | Employee ID: PRC0964 | Attendance Date: 2024-11-20 00:00:00 | Logs Time: 11-20-2024 07:01:35 PM | IP Address: 10.63.11.96
+2025-03-17 10:34:23,211 | Log saved successfully fro PGC0993.
+2025-03-17 10:34:23,222 | Employee ID: PGC0993 | Attendance Date: 2024-11-21 00:00:00 | Logs Time: 11-21-2024 05:30:59 PM | IP Address: 10.63.3.18
+2025-03-17 10:34:23,312 | Log saved successfully fro PGC1451.
+2025-03-17 10:34:23,324 | Employee ID: PGC1451 | Attendance Date: 2024-11-21 00:00:00 | Logs Time: 11-21-2024 08:46:00 PM | IP Address: 10.63.3.18
+2025-03-17 10:34:23,443 | Log saved successfully fro PRC1123.
+2025-03-17 10:34:23,454 | Employee ID: PRC1123 | Attendance Date: 2024-06-20 00:00:00 | Logs Time: 06-20-2024 06:27:24 PM | IP Address: 10.63.3.50
+2025-03-17 10:34:23,566 | Log saved successfully fro PGC0866.
+2025-03-17 10:34:23,577 | Employee ID: PGC0866 | Attendance Date: 2024-06-20 00:00:00 | Logs Time: 06-20-2024 06:35:38 PM | IP Address: 10.63.3.50
+2025-03-17 10:34:23,667 | Log saved successfully fro PGC1225.
+2025-03-17 10:34:23,676 | Employee ID: PGC1225 | Attendance Date: 2024-10-17 00:00:00 | Logs Time: 10-17-2024 04:35:53 PM | IP Address: 10.63.11.132
+2025-03-17 10:34:23,775 | Log saved successfully fro PGC1031.
+2025-03-17 10:34:23,784 | Employee ID: PGC1031 | Attendance Date: 2024-10-17 00:00:00 | Logs Time: 10-17-2024 05:10:45 PM | IP Address: 10.63.11.132
+2025-03-17 10:34:23,784 | Done processing the data for login IP address sharing.
+2025-03-17 10:34:24,133 | Log saved successfully fro PGC1225.
+2025-03-17 10:34:24,142 | Employee ID: PGC1225 | Attendance Date: 2024-11-14 00:00:00 | Logs Time: 11-14-2024 06:21:10 PM | IP Address: 10.63.11.170
+2025-03-17 10:34:24,228 | Log saved successfully fro PRC0964.
+2025-03-17 10:34:24,244 | Employee ID: PRC0964 | Attendance Date: 2024-11-14 00:00:00 | Logs Time: 11-14-2024 06:31:26 PM | IP Address: 10.63.11.170
+2025-03-17 10:34:24,325 | Log saved successfully fro PGC0855.
+2025-03-17 10:34:24,346 | Employee ID: PGC0855 | Attendance Date: 2024-10-16 00:00:00 | Logs Time: 10-16-2024 06:20:01 PM | IP Address: 10.63.11.222
+2025-03-17 10:34:24,427 | Log saved successfully fro PGC1225.
+2025-03-17 10:34:24,441 | Employee ID: PGC1225 | Attendance Date: 2024-10-16 00:00:00 | Logs Time: 10-16-2024 06:21:44 PM | IP Address: 10.63.11.222
+2025-03-17 10:34:24,523 | Log saved successfully fro PRC1027.
+2025-03-17 10:34:24,532 | Employee ID: PRC1027 | Attendance Date: 2024-08-22 00:00:00 | Logs Time: 08-22-2024 05:07:57 PM | IP Address: 10.63.11.126
+2025-03-17 10:34:24,603 | Log saved successfully fro PRC0965.
+2025-03-17 10:34:24,614 | Employee ID: PRC0965 | Attendance Date: 2024-08-22 00:00:00 | Logs Time: 08-22-2024 07:11:04 PM | IP Address: 10.63.11.126
+2025-03-17 10:34:24,759 | Log saved successfully fro PRC0143.
+2025-03-17 10:34:24,772 | Employee ID: PRC0143 | Attendance Date: 2024-09-03 00:00:00 | Logs Time: 09-03-2024 07:51:31 PM | IP Address: 10.63.11.146
+2025-03-17 10:34:24,852 | Log saved successfully fro PRC0964.
+2025-03-17 10:34:24,863 | Employee ID: PRC0964 | Attendance Date: 2024-09-03 00:00:00 | Logs Time: 09-03-2024 06:23:23 PM | IP Address: 10.63.11.146
+2025-03-17 10:34:24,918 | Log saved successfully fro PGC1225.
+2025-03-17 10:34:24,927 | Employee ID: PGC1225 | Attendance Date: 2024-07-31 00:00:00 | Logs Time: 07-31-2024 05:48:40 PM | IP Address: 10.63.11.172
+2025-03-17 10:34:25,000 | Log saved successfully fro PRC0964.
+2025-03-17 10:34:25,012 | Employee ID: PRC0964 | Attendance Date: 2024-07-31 00:00:00 | Logs Time: 07-31-2024 06:35:53 PM | IP Address: 10.63.11.172
+2025-03-17 10:34:25,013 | Done processing the data for logout IP address sharing.
+2025-03-17 14:39:27,268 | Log saved successfully fro KIDC0282            .
+2025-03-17 14:39:27,282 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 14:39:27,321 | Log saved successfully fro PGC0411             .
+2025-03-17 14:39:27,333 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 14:39:27,382 | Log saved successfully fro PGC0797             .
+2025-03-17 14:39:27,397 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 14:39:27,438 | Log saved successfully fro PGC1034             .
+2025-03-17 14:39:27,447 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 14:39:27,495 | Log saved successfully fro PGC1270             .
+2025-03-17 14:39:27,509 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 14:39:27,548 | Log saved successfully fro PRC0955             .
+2025-03-17 14:39:27,559 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 14:39:27,560 | Done processing the data for invalid logout.
+2025-03-17 14:39:27,844 | Log saved successfully fro PGC1366.
+2025-03-17 14:39:27,858 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:39:27,932 | Log saved successfully fro PGC0371.
+2025-03-17 14:39:27,943 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:39:28,013 | Log saved successfully fro PGC1451.
+2025-03-17 14:39:28,022 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:10:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:39:28,106 | Log saved successfully fro PGC0993.
+2025-03-17 14:39:28,121 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:01:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:39:28,186 | Log saved successfully fro PGC1478.
+2025-03-17 14:39:28,198 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:15:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,267 | Log saved successfully fro PGC1378.
+2025-03-17 14:39:28,279 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,339 | Log saved successfully fro PRC0182.
+2025-03-17 14:39:28,347 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:26:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,422 | Log saved successfully fro PGC0452.
+2025-03-17 14:39:28,437 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:42:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,502 | Log saved successfully fro PRC0016.
+2025-03-17 14:39:28,521 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:33:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,588 | Log saved successfully fro PGC0590.
+2025-03-17 14:39:28,602 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:22:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,707 | Log saved successfully fro PGC1444.
+2025-03-17 14:39:28,720 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:52:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,783 | Log saved successfully fro PGC1511.
+2025-03-17 14:39:28,794 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:21:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,868 | Log saved successfully fro ARX0065.
+2025-03-17 14:39:28,877 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:08:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:28,949 | Log saved successfully fro PGC0574.
+2025-03-17 14:39:28,957 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:39:29,035 | Log saved successfully fro PGC0516.
+2025-03-17 14:39:29,046 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:34:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:39:29,046 | Done processing the data for login IP address sharing.
+2025-03-17 14:39:29,365 | Log saved successfully fro PRC0892.
+2025-03-17 14:39:29,375 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:39:29,450 | Log saved successfully fro PRC1148.
+2025-03-17 14:39:29,458 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:39:29,459 | Done processing the data for logout IP address sharing.
+2025-03-17 14:41:49,113 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA3012120>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:41:49,138 | Log saved successfully fro KIDC0282            .
+2025-03-17 14:41:49,148 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 14:41:51,332 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA3095E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:41:51,348 | Log saved successfully fro PGC0411             .
+2025-03-17 14:41:51,361 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 14:41:53,486 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA3096850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:41:53,501 | Log saved successfully fro PGC0797             .
+2025-03-17 14:41:53,522 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 14:41:55,654 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30A4D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:41:55,670 | Log saved successfully fro PGC1034             .
+2025-03-17 14:41:55,680 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 14:41:57,846 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30A5480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:41:57,862 | Log saved successfully fro PGC1270             .
+2025-03-17 14:41:57,866 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 14:41:59,985 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30916D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:00,003 | Log saved successfully fro PRC0955             .
+2025-03-17 14:42:00,012 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 14:42:00,013 | Done processing the data for invalid logout.
+2025-03-17 14:42:05,982 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:05,993 | Log saved successfully fro PGC1451.
+2025-03-17 14:42:06,005 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:10:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:42:08,168 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B19D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:08,184 | Log saved successfully fro PGC0993.
+2025-03-17 14:42:08,196 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:01:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:42:10,345 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1BF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:10,357 | Log saved successfully fro PGC1478.
+2025-03-17 14:42:10,373 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:15:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:12,552 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:12,579 | Log saved successfully fro PGC1378.
+2025-03-17 14:42:12,596 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:42:14,731 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA2FC3F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:14,751 | Log saved successfully fro PRC0182.
+2025-03-17 14:42:14,761 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:26:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:16,917 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA2FC3AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:16,948 | Log saved successfully fro PGC0452.
+2025-03-17 14:42:16,970 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:42:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:19,135 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA2FC3DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:19,153 | Log saved successfully fro PRC0016.
+2025-03-17 14:42:19,168 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:33:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:21,328 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA2FC38A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:21,346 | Log saved successfully fro PGC0590.
+2025-03-17 14:42:21,375 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:22:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:23,570 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA2FC3570>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:23,583 | Log saved successfully fro PGC1444.
+2025-03-17 14:42:23,592 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:52:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:25,791 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1F20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:25,809 | Log saved successfully fro PGC1511.
+2025-03-17 14:42:25,821 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:21:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:27,999 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:28,022 | Log saved successfully fro ARX0065.
+2025-03-17 14:42:28,060 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:08:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:30,232 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B16A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:30,248 | Log saved successfully fro PGC0574.
+2025-03-17 14:42:30,259 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:42:32,448 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B17B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:32,472 | Log saved successfully fro PGC0516.
+2025-03-17 14:42:32,480 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:34:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:42:34,650 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1AE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:34,710 | Log saved successfully fro PGC1366.
+2025-03-17 14:42:34,732 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:42:37,095 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B0D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:37,112 | Log saved successfully fro PGC0371.
+2025-03-17 14:42:37,122 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:42:37,122 | Done processing the data for login IP address sharing.
+2025-03-17 14:42:39,761 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B0E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:39,783 | Log saved successfully fro PRC0892.
+2025-03-17 14:42:39,802 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:42:41,993 | ERROR: Sending email: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /send_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BAA30B1260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-03-17 14:42:42,008 | Log saved successfully fro PRC1148.
+2025-03-17 14:42:42,018 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:42:42,018 | Done processing the data for logout IP address sharing.
+2025-03-17 14:44:55,654 | Email sent successfully.
+2025-03-17 14:44:55,819 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 14:44:55,837 | Log saved successfully for KIDC0282            .
+2025-03-17 14:44:55,854 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 14:44:57,315 | Email sent successfully.
+2025-03-17 14:44:57,367 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 14:44:57,383 | Log saved successfully for PGC0411             .
+2025-03-17 14:44:57,394 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 14:44:58,897 | Email sent successfully.
+2025-03-17 14:44:58,958 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 14:44:58,979 | Log saved successfully for PGC0797             .
+2025-03-17 14:44:58,992 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 14:45:00,309 | Email sent successfully.
+2025-03-17 14:45:00,369 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 14:45:00,401 | Log saved successfully for PGC1034             .
+2025-03-17 14:45:00,411 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 14:45:01,912 | Email sent successfully.
+2025-03-17 14:45:01,967 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 14:45:01,986 | Log saved successfully for PGC1270             .
+2025-03-17 14:45:01,997 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 14:45:03,463 | Email sent successfully.
+2025-03-17 14:45:03,521 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 14:45:03,541 | Log saved successfully for PRC0955             .
+2025-03-17 14:45:03,554 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 14:45:03,554 | Done processing the data for invalid logout.
+2025-03-17 14:45:05,087 | Email sent successfully.
+2025-03-17 14:45:05,145 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 14:45:05,159 | Log saved successfully for PGC1366.
+2025-03-17 14:45:05,172 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:45:06,672 | Email sent successfully.
+2025-03-17 14:45:06,724 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 14:45:06,746 | Log saved successfully for PGC0371.
+2025-03-17 14:45:06,759 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:45:08,287 | Email sent successfully.
+2025-03-17 14:45:08,342 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 14:45:08,358 | Log saved successfully for PGC1451.
+2025-03-17 14:45:08,374 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:10:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:45:09,597 | Email sent successfully.
+2025-03-17 14:45:09,665 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 14:45:09,676 | Log saved successfully for PGC0993.
+2025-03-17 14:45:09,683 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:01:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:45:10,860 | Email sent successfully.
+2025-03-17 14:45:10,957 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 14:45:10,978 | Log saved successfully for PGC1478.
+2025-03-17 14:45:10,990 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:15:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:12,604 | Email sent successfully.
+2025-03-17 14:45:12,655 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 14:45:12,681 | Log saved successfully for PGC1378.
+2025-03-17 14:45:12,692 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:45:13,899 | Email sent successfully.
+2025-03-17 14:45:13,961 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 14:45:13,979 | Log saved successfully for PRC0182.
+2025-03-17 14:45:13,989 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:26:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:15,496 | Email sent successfully.
+2025-03-17 14:45:15,565 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 14:45:15,583 | Log saved successfully for PGC0452.
+2025-03-17 14:45:15,595 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:42:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:17,088 | Email sent successfully.
+2025-03-17 14:45:17,137 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 14:45:17,150 | Log saved successfully for PRC0016.
+2025-03-17 14:45:17,159 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:33:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:18,657 | Email sent successfully.
+2025-03-17 14:45:18,709 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 14:45:18,728 | Log saved successfully for PGC0590.
+2025-03-17 14:45:18,739 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:22:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:20,273 | Email sent successfully.
+2025-03-17 14:45:20,344 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 14:45:20,381 | Log saved successfully for PGC1444.
+2025-03-17 14:45:20,396 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:52:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:21,947 | Email sent successfully.
+2025-03-17 14:45:22,003 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 14:45:22,020 | Log saved successfully for PGC1511.
+2025-03-17 14:45:22,032 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:21:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:23,645 | Email sent successfully.
+2025-03-17 14:45:23,705 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 14:45:23,721 | Log saved successfully for ARX0065.
+2025-03-17 14:45:23,738 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:08:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:24,925 | Email sent successfully.
+2025-03-17 14:45:24,993 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 14:45:25,018 | Log saved successfully for PGC0574.
+2025-03-17 14:45:25,031 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:45:26,724 | Email sent successfully.
+2025-03-17 14:45:26,772 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 14:45:26,793 | Log saved successfully for PGC0516.
+2025-03-17 14:45:26,808 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:34:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:45:26,809 | Done processing the data for login IP address sharing.
+2025-03-17 14:45:28,480 | Email sent successfully.
+2025-03-17 14:45:28,533 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 14:45:28,553 | Log saved successfully for PRC0892.
+2025-03-17 14:45:28,566 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:45:30,060 | Email sent successfully.
+2025-03-17 14:45:30,138 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 14:45:30,153 | Log saved successfully for PRC1148.
+2025-03-17 14:45:30,169 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:45:30,170 | Done processing the data for logout IP address sharing.
+2025-03-17 14:50:50,436 | Email sent successfully.
+2025-03-17 14:50:50,504 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 14:50:50,846 | Log saved successfully for KIDC0282            .
+2025-03-17 14:50:50,857 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 14:50:54,231 | Email sent successfully.
+2025-03-17 14:50:54,285 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 14:50:54,302 | Log saved successfully for PGC0411             .
+2025-03-17 14:50:54,310 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 14:50:57,390 | Email sent successfully.
+2025-03-17 14:50:57,448 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 14:50:57,474 | Log saved successfully for PGC0797             .
+2025-03-17 14:50:57,485 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 14:51:00,809 | Email sent successfully.
+2025-03-17 14:51:00,863 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 14:51:00,879 | Log saved successfully for PGC1034             .
+2025-03-17 14:51:00,895 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 14:51:04,307 | Email sent successfully.
+2025-03-17 14:51:04,361 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 14:51:04,374 | Log saved successfully for PGC1270             .
+2025-03-17 14:51:04,384 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 14:51:07,691 | Email sent successfully.
+2025-03-17 14:51:07,744 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 14:51:07,760 | Log saved successfully for PRC0955             .
+2025-03-17 14:51:07,773 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 14:51:07,773 | Done processing the data for invalid logout.
+2025-03-17 14:51:11,432 | Email sent successfully.
+2025-03-17 14:51:11,488 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 14:51:11,506 | Log saved successfully for PGC1366.
+2025-03-17 14:51:11,515 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:51:14,390 | Email sent successfully.
+2025-03-17 14:51:14,439 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 14:51:14,458 | Log saved successfully for PGC0371.
+2025-03-17 14:51:14,474 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 14:51:17,884 | Email sent successfully.
+2025-03-17 14:51:17,946 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 14:51:17,960 | Log saved successfully for PGC1451.
+2025-03-17 14:51:17,971 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:10:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:51:21,359 | Email sent successfully.
+2025-03-17 14:51:21,432 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 14:51:21,464 | Log saved successfully for PGC0993.
+2025-03-17 14:51:21,481 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:01:00 PM | IP Address: 10.63.3.18
+2025-03-17 14:51:24,345 | Email sent successfully.
+2025-03-17 14:51:24,401 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 14:51:24,421 | Log saved successfully for PGC1478.
+2025-03-17 14:51:24,432 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:15:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:27,173 | Email sent successfully.
+2025-03-17 14:51:27,224 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 14:51:27,240 | Log saved successfully for PGC1378.
+2025-03-17 14:51:27,251 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:51:30,575 | Email sent successfully.
+2025-03-17 14:51:30,629 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 14:51:30,646 | Log saved successfully for PRC0182.
+2025-03-17 14:51:30,659 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:26:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:33,413 | Email sent successfully.
+2025-03-17 14:51:33,469 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 14:51:33,483 | Log saved successfully for PGC0452.
+2025-03-17 14:51:33,492 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:42:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:36,736 | Email sent successfully.
+2025-03-17 14:51:36,791 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 14:51:36,832 | Log saved successfully for PRC0016.
+2025-03-17 14:51:36,836 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:33:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:39,635 | Email sent successfully.
+2025-03-17 14:51:39,696 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 14:51:39,712 | Log saved successfully for PGC0590.
+2025-03-17 14:51:39,723 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:22:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:42,449 | Email sent successfully.
+2025-03-17 14:51:42,498 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 14:51:42,515 | Log saved successfully for PGC1444.
+2025-03-17 14:51:42,525 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:52:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:45,262 | Email sent successfully.
+2025-03-17 14:51:45,319 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 14:51:45,331 | Log saved successfully for PGC1511.
+2025-03-17 14:51:45,344 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:21:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:48,129 | Email sent successfully.
+2025-03-17 14:51:48,290 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 14:51:48,380 | Log saved successfully for ARX0065.
+2025-03-17 14:51:48,402 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:08:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:51,265 | Email sent successfully.
+2025-03-17 14:51:51,321 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 14:51:51,338 | Log saved successfully for PGC0574.
+2025-03-17 14:51:51,347 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 14:51:54,454 | Email sent successfully.
+2025-03-17 14:51:54,510 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 14:51:54,526 | Log saved successfully for PGC0516.
+2025-03-17 14:51:54,537 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:34:00 PM | IP Address: 115.84.243.13
+2025-03-17 14:51:54,538 | Done processing the data for login IP address sharing.
+2025-03-17 14:51:58,104 | Email sent successfully.
+2025-03-17 14:51:58,132 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 14:51:58,141 | Log saved successfully for PRC0892.
+2025-03-17 14:51:58,148 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:52:01,457 | Email sent successfully.
+2025-03-17 14:52:01,512 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 14:52:01,527 | Log saved successfully for PRC1148.
+2025-03-17 14:52:01,538 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 14:52:01,538 | Done processing the data for logout IP address sharing.
+2025-03-17 15:12:50,017 | Email sent successfully.
+2025-03-17 15:12:50,091 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 15:12:50,114 | Log saved successfully for KIDC0282            .
+2025-03-17 15:12:50,126 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 15:12:53,299 | Email sent successfully.
+2025-03-17 15:12:53,357 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 15:12:53,372 | Log saved successfully for PGC0411             .
+2025-03-17 15:12:53,382 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 15:12:57,112 | Email sent successfully.
+2025-03-17 15:12:57,164 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:12:57,180 | Log saved successfully for PGC0797             .
+2025-03-17 15:12:57,199 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 15:13:00,385 | Email sent successfully.
+2025-03-17 15:13:00,444 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:13:00,474 | Log saved successfully for PGC1034             .
+2025-03-17 15:13:00,489 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 15:13:04,608 | Email sent successfully.
+2025-03-17 15:13:04,664 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:13:04,691 | Log saved successfully for PGC1270             .
+2025-03-17 15:13:04,703 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 15:13:07,834 | Email sent successfully.
+2025-03-17 15:13:07,894 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:13:07,908 | Log saved successfully for PRC0955             .
+2025-03-17 15:13:07,918 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 15:13:07,918 | Done processing the data for invalid logout.
+2025-03-17 15:13:11,849 | Email sent successfully.
+2025-03-17 15:13:11,909 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 15:13:11,928 | Log saved successfully for PGC1366.
+2025-03-17 15:13:11,949 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 15:13:15,774 | Email sent successfully.
+2025-03-17 15:13:15,825 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 15:13:15,843 | Log saved successfully for PGC0371.
+2025-03-17 15:13:15,853 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 15:13:19,097 | Email sent successfully.
+2025-03-17 15:13:19,148 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 15:13:19,170 | Log saved successfully for PGC1451.
+2025-03-17 15:13:19,182 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:10:00 PM | IP Address: 10.63.3.18
+2025-03-17 15:13:22,412 | Email sent successfully.
+2025-03-17 15:13:22,464 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:13:22,479 | Log saved successfully for PGC0993.
+2025-03-17 15:13:22,500 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:01:00 PM | IP Address: 10.63.3.18
+2025-03-17 15:13:25,700 | Email sent successfully.
+2025-03-17 15:13:25,774 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:13:25,790 | Log saved successfully for PGC1478.
+2025-03-17 15:13:25,837 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:15:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:29,609 | Email sent successfully.
+2025-03-17 15:13:29,663 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:13:29,694 | Log saved successfully for PGC1378.
+2025-03-17 15:13:29,704 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:13:32,927 | Email sent successfully.
+2025-03-17 15:13:32,987 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 15:13:33,038 | Log saved successfully for PRC0182.
+2025-03-17 15:13:33,049 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:26:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:36,847 | Email sent successfully.
+2025-03-17 15:13:36,915 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:13:36,934 | Log saved successfully for PGC0452.
+2025-03-17 15:13:36,939 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:42:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:40,130 | Email sent successfully.
+2025-03-17 15:13:40,282 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:13:40,297 | Log saved successfully for PRC0016.
+2025-03-17 15:13:40,315 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:33:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:44,018 | Email sent successfully.
+2025-03-17 15:13:44,070 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 15:13:44,084 | Log saved successfully for PGC0590.
+2025-03-17 15:13:44,098 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:22:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:47,266 | Email sent successfully.
+2025-03-17 15:13:47,317 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:13:47,335 | Log saved successfully for PGC1444.
+2025-03-17 15:13:47,346 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:52:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:51,245 | Email sent successfully.
+2025-03-17 15:13:51,305 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 15:13:51,319 | Log saved successfully for PGC1511.
+2025-03-17 15:13:51,326 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:21:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:54,502 | Email sent successfully.
+2025-03-17 15:13:54,573 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:13:54,594 | Log saved successfully for ARX0065.
+2025-03-17 15:13:54,605 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:08:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:13:57,967 | Email sent successfully.
+2025-03-17 15:13:58,019 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 15:13:58,034 | Log saved successfully for PGC0574.
+2025-03-17 15:13:58,051 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:14:01,848 | Email sent successfully.
+2025-03-17 15:14:01,893 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 15:14:01,914 | Log saved successfully for PGC0516.
+2025-03-17 15:14:01,925 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:34:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:14:01,926 | Done processing the data for login IP address sharing.
+2025-03-17 15:14:05,424 | Email sent successfully.
+2025-03-17 15:14:05,474 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 15:14:05,490 | Log saved successfully for PRC0892.
+2025-03-17 15:14:05,506 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 15:14:08,633 | Email sent successfully.
+2025-03-17 15:14:08,684 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 15:14:08,699 | Log saved successfully for PRC1148.
+2025-03-17 15:14:08,711 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 15:14:08,712 | Done processing the data for logout IP address sharing.
+2025-03-17 15:30:16,853 | Email sent successfully.
+2025-03-17 15:30:16,951 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 15:30:16,987 | Log saved successfully for KIDC0282            .
+2025-03-17 15:30:17,047 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 15:30:20,811 | Email sent successfully.
+2025-03-17 15:30:20,860 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 15:30:20,899 | Log saved successfully for PGC0411             .
+2025-03-17 15:30:20,909 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 15:30:24,260 | Email sent successfully.
+2025-03-17 15:30:24,341 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:30:24,362 | Log saved successfully for PGC0797             .
+2025-03-17 15:30:24,374 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 15:30:28,229 | Email sent successfully.
+2025-03-17 15:30:28,283 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:30:28,298 | Log saved successfully for PGC1034             .
+2025-03-17 15:30:28,309 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 15:30:31,477 | Email sent successfully.
+2025-03-17 15:30:31,544 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:30:31,560 | Log saved successfully for PGC1270             .
+2025-03-17 15:30:31,573 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 15:30:34,694 | Email sent successfully.
+2025-03-17 15:30:34,738 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:30:34,755 | Log saved successfully for PRC0955             .
+2025-03-17 15:30:34,765 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 15:30:34,765 | Done processing the data for invalid logout.
+2025-03-17 15:30:38,601 | Email sent successfully.
+2025-03-17 15:30:38,647 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 15:30:38,662 | Log saved successfully for PGC1366.
+2025-03-17 15:30:38,674 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 15:30:42,381 | Email sent successfully.
+2025-03-17 15:30:42,432 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 15:30:42,454 | Log saved successfully for PGC0371.
+2025-03-17 15:30:42,464 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:30:00 PM | IP Address: 10.63.24.37
+2025-03-17 15:30:45,647 | Email sent successfully.
+2025-03-17 15:30:45,697 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 15:30:45,715 | Log saved successfully for PGC1451.
+2025-03-17 15:30:45,727 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:10:00 PM | IP Address: 10.63.3.18
+2025-03-17 15:30:49,007 | Email sent successfully.
+2025-03-17 15:30:49,051 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:30:49,063 | Log saved successfully for PGC0993.
+2025-03-17 15:30:49,067 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:01:00 PM | IP Address: 10.63.3.18
+2025-03-17 15:30:52,504 | Email sent successfully.
+2025-03-17 15:30:52,557 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:30:52,574 | Log saved successfully for PGC1478.
+2025-03-17 15:30:52,585 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:15:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:30:55,767 | Email sent successfully.
+2025-03-17 15:30:55,823 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:30:55,841 | Log saved successfully for PGC1378.
+2025-03-17 15:30:55,854 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:30:59,116 | Email sent successfully.
+2025-03-17 15:30:59,183 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 15:30:59,198 | Log saved successfully for PRC0182.
+2025-03-17 15:30:59,207 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:26:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:02,344 | Email sent successfully.
+2025-03-17 15:31:02,393 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:31:02,408 | Log saved successfully for PGC0452.
+2025-03-17 15:31:02,418 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 04:42:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:05,595 | Email sent successfully.
+2025-03-17 15:31:05,650 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:31:05,667 | Log saved successfully for PRC0016.
+2025-03-17 15:31:05,681 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:33:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:09,382 | Email sent successfully.
+2025-03-17 15:31:09,432 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 15:31:09,446 | Log saved successfully for PGC0590.
+2025-03-17 15:31:09,455 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:22:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:12,630 | Email sent successfully.
+2025-03-17 15:31:12,707 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:31:12,727 | Log saved successfully for PGC1444.
+2025-03-17 15:31:12,740 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 05:52:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:15,976 | Email sent successfully.
+2025-03-17 15:31:16,030 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 15:31:16,045 | Log saved successfully for PGC1511.
+2025-03-17 15:31:16,063 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:21:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:19,289 | Email sent successfully.
+2025-03-17 15:31:19,352 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:31:19,369 | Log saved successfully for ARX0065.
+2025-03-17 15:31:19,379 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:08:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:23,244 | Email sent successfully.
+2025-03-17 15:31:23,343 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 15:31:23,366 | Log saved successfully for PGC0574.
+2025-03-17 15:31:23,401 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:31:26,635 | Email sent successfully.
+2025-03-17 15:31:26,691 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 15:31:26,720 | Log saved successfully for PGC0516.
+2025-03-17 15:31:26,732 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 06:34:00 PM | IP Address: 115.84.243.13
+2025-03-17 15:31:26,733 | Done processing the data for login IP address sharing.
+2025-03-17 15:31:30,095 | Email sent successfully.
+2025-03-17 15:31:30,149 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 15:31:30,167 | Log saved successfully for PRC0892.
+2025-03-17 15:31:30,180 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 15:31:33,436 | Email sent successfully.
+2025-03-17 15:31:33,495 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 15:31:33,514 | Log saved successfully for PRC1148.
+2025-03-17 15:31:33,526 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 15:31:33,526 | Done processing the data for logout IP address sharing.
+2025-03-17 15:37:40,827 | Email sent successfully.
+2025-03-17 15:37:40,891 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 15:37:40,907 | Log saved successfully for KIDC0282            .
+2025-03-17 15:37:40,916 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 15:37:44,075 | Email sent successfully.
+2025-03-17 15:37:44,120 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 15:37:44,133 | Log saved successfully for PGC0411             .
+2025-03-17 15:37:44,142 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 15:37:47,187 | Email sent successfully.
+2025-03-17 15:37:47,257 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:37:47,278 | Log saved successfully for PGC0797             .
+2025-03-17 15:37:47,287 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 15:37:50,482 | Email sent successfully.
+2025-03-17 15:37:50,548 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:37:50,563 | Log saved successfully for PGC1034             .
+2025-03-17 15:37:50,576 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 15:50:02,949 | Email sent successfully.
+2025-03-17 15:50:03,013 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 15:50:03,027 | Log saved successfully for KIDC0282            .
+2025-03-17 15:50:03,038 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 15:50:05,939 | Email sent successfully.
+2025-03-17 15:50:06,003 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 15:50:06,017 | Log saved successfully for PGC0411             .
+2025-03-17 15:50:06,025 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 15:50:09,540 | Email sent successfully.
+2025-03-17 15:50:09,596 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:50:09,613 | Log saved successfully for PGC0797             .
+2025-03-17 15:50:09,625 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 15:50:13,030 | Email sent successfully.
+2025-03-17 15:50:13,087 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:50:13,102 | Log saved successfully for PGC1034             .
+2025-03-17 15:50:13,123 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 15:50:16,484 | Email sent successfully.
+2025-03-17 15:50:16,550 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:50:16,570 | Log saved successfully for PGC1270             .
+2025-03-17 15:50:16,586 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 15:50:19,919 | Email sent successfully.
+2025-03-17 15:50:19,994 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:50:20,013 | Log saved successfully for PRC0955             .
+2025-03-17 15:50:20,029 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 15:50:20,030 | Done processing the data for invalid logout.
+2025-03-17 15:50:23,147 | Email sent successfully.
+2025-03-17 15:50:23,203 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 15:50:23,225 | Log saved successfully for PGC1366.
+2025-03-17 15:50:23,233 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 15:50:26,025 | Email sent successfully.
+2025-03-17 15:50:26,070 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 15:50:26,088 | Log saved successfully for PGC0371.
+2025-03-17 15:50:26,100 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 15:50:28,900 | Email sent successfully.
+2025-03-17 15:50:28,954 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 15:50:28,976 | Log saved successfully for PGC1451.
+2025-03-17 15:50:29,027 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 15:50:32,431 | Email sent successfully.
+2025-03-17 15:50:32,485 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:50:32,502 | Log saved successfully for PGC0993.
+2025-03-17 15:50:32,515 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:44:00 AM | IP Address: 10.63.3.18
+2025-03-17 15:50:35,893 | Email sent successfully.
+2025-03-17 15:50:35,967 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:50:35,987 | Log saved successfully for PGC1478.
+2025-03-17 15:50:35,999 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:05:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:38,777 | Email sent successfully.
+2025-03-17 15:50:38,836 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:50:38,852 | Log saved successfully for PGC1378.
+2025-03-17 15:50:38,869 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:42,206 | Email sent successfully.
+2025-03-17 15:50:42,257 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 15:50:42,271 | Log saved successfully for PRC0182.
+2025-03-17 15:50:42,283 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:35:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:45,155 | Email sent successfully.
+2025-03-17 15:50:45,206 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:50:45,226 | Log saved successfully for PGC0452.
+2025-03-17 15:50:45,237 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:41:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:48,634 | Email sent successfully.
+2025-03-17 15:50:48,686 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 15:50:48,709 | Log saved successfully for PRC0016.
+2025-03-17 15:50:48,726 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:01:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:51,588 | Email sent successfully.
+2025-03-17 15:50:51,672 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 15:50:51,692 | Log saved successfully for PGC0590.
+2025-03-17 15:50:51,702 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:11:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:54,506 | Email sent successfully.
+2025-03-17 15:50:54,564 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:50:54,583 | Log saved successfully for PGC1444.
+2025-03-17 15:50:54,596 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:52:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:50:57,404 | Email sent successfully.
+2025-03-17 15:50:57,473 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 15:50:57,491 | Log saved successfully for PGC1511.
+2025-03-17 15:50:57,501 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:54:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:51:00,346 | Email sent successfully.
+2025-03-17 15:51:00,413 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 15:51:00,432 | Log saved successfully for ARX0065.
+2025-03-17 15:51:00,444 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:07:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:51:03,200 | Email sent successfully.
+2025-03-17 15:51:03,250 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 15:51:03,273 | Log saved successfully for PGC0574.
+2025-03-17 15:51:03,285 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:51:06,661 | Email sent successfully.
+2025-03-17 15:51:06,724 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 15:51:06,743 | Log saved successfully for PGC0516.
+2025-03-17 15:51:06,752 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:09:00 AM | IP Address: 115.84.243.13
+2025-03-17 15:51:06,753 | Done processing the data for login IP address sharing.
+2025-03-17 15:51:10,305 | Email sent successfully.
+2025-03-17 15:51:10,350 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 15:51:10,373 | Log saved successfully for PRC0892.
+2025-03-17 15:51:10,388 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 21:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 15:51:13,139 | Email sent successfully.
+2025-03-17 15:51:13,196 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 15:51:13,214 | Log saved successfully for PRC1148.
+2025-03-17 15:51:13,236 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 22:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 15:51:13,237 | Done processing the data for logout IP address sharing.
+2025-03-17 15:55:25,121 | Email sent successfully.
+2025-03-17 15:55:25,176 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 15:55:25,593 | Log saved successfully for KIDC0282            .
+2025-03-17 15:55:25,603 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 15:55:28,764 | Email sent successfully.
+2025-03-17 15:55:28,821 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 15:55:28,834 | Log saved successfully for PGC0411             .
+2025-03-17 15:55:28,844 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 15:55:32,524 | Email sent successfully.
+2025-03-17 15:55:32,582 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:55:32,620 | Log saved successfully for PGC0797             .
+2025-03-17 15:55:32,630 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 15:55:35,890 | Email sent successfully.
+2025-03-17 15:55:36,073 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 15:55:36,101 | Log saved successfully for PGC1034             .
+2025-03-17 15:55:36,113 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 15:55:39,236 | Email sent successfully.
+2025-03-17 15:55:39,289 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 15:55:39,307 | Log saved successfully for PGC1270             .
+2025-03-17 15:55:39,316 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 16:01:15,763 | Email sent successfully.
+2025-03-17 16:01:15,831 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 16:01:15,854 | Log saved successfully for KIDC0282            .
+2025-03-17 16:01:15,863 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 16:01:18,959 | Email sent successfully.
+2025-03-17 16:01:19,009 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 16:01:20,623 | Log saved successfully for PGC0411             .
+2025-03-17 16:01:20,652 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 16:01:23,850 | Email sent successfully.
+2025-03-17 16:01:23,900 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:01:23,914 | Log saved successfully for PGC0797             .
+2025-03-17 16:01:23,922 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 16:01:27,295 | Email sent successfully.
+2025-03-17 16:01:27,355 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:01:27,373 | Log saved successfully for PGC1034             .
+2025-03-17 16:01:27,384 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 16:01:31,084 | Email sent successfully.
+2025-03-17 16:01:31,136 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:01:31,150 | Log saved successfully for PGC1270             .
+2025-03-17 16:02:33,735 | Email sent successfully.
+2025-03-17 16:02:33,834 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:02:33,850 | Log saved successfully for PRC0955             .
+2025-03-17 16:02:33,864 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 16:02:33,865 | Done processing the data for invalid logout.
+2025-03-17 16:02:37,730 | Email sent successfully.
+2025-03-17 16:02:37,791 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 16:02:37,810 | Log saved successfully for PGC1451.
+2025-03-17 16:02:37,819 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:02:41,005 | Email sent successfully.
+2025-03-17 16:02:41,062 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:02:41,079 | Log saved successfully for PGC0993.
+2025-03-17 16:02:41,090 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:44:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:02:44,310 | Email sent successfully.
+2025-03-17 16:02:44,366 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:02:44,384 | Log saved successfully for PGC1478.
+2025-03-17 16:02:44,397 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:05:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:03:10,523 | Email sent successfully.
+2025-03-17 16:03:10,577 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 16:03:10,598 | Log saved successfully for KIDC0282            .
+2025-03-17 16:03:10,608 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 16:03:13,752 | Email sent successfully.
+2025-03-17 16:03:13,799 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 16:03:13,954 | Log saved successfully for PGC0411             .
+2025-03-17 16:03:13,969 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 16:03:17,246 | Email sent successfully.
+2025-03-17 16:03:17,299 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:03:17,337 | Log saved successfully for PGC0797             .
+2025-03-17 16:03:17,347 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 16:03:20,557 | Email sent successfully.
+2025-03-17 16:03:20,615 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:03:20,796 | Log saved successfully for PGC1034             .
+2025-03-17 16:03:20,807 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 16:03:24,021 | Email sent successfully.
+2025-03-17 16:03:24,083 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:03:24,099 | Log saved successfully for PGC1270             .
+2025-03-17 16:03:24,108 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 16:03:27,241 | Email sent successfully.
+2025-03-17 16:03:27,293 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:03:27,307 | Log saved successfully for PRC0955             .
+2025-03-17 16:03:27,316 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 16:03:27,316 | Done processing the data for invalid logout.
+2025-03-17 16:03:30,659 | Email sent successfully.
+2025-03-17 16:03:30,927 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:03:30,980 | Log saved successfully for PGC1366.
+2025-03-17 16:03:31,007 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:03:34,361 | Email sent successfully.
+2025-03-17 16:03:34,413 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:03:34,660 | Log saved successfully for PGC0371.
+2025-03-17 16:03:34,680 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:03:38,738 | Email sent successfully.
+2025-03-17 16:03:39,085 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 16:03:39,121 | Log saved successfully for PGC1451.
+2025-03-17 16:03:39,130 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:05:50,290 | Email sent successfully.
+2025-03-17 16:05:50,340 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 16:05:52,687 | Log saved successfully for KIDC0282            .
+2025-03-17 16:05:52,717 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 16:05:56,537 | Email sent successfully.
+2025-03-17 16:05:56,684 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 16:05:56,709 | Log saved successfully for PGC0411             .
+2025-03-17 16:05:56,724 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 16:05:59,898 | Email sent successfully.
+2025-03-17 16:05:59,963 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:05:59,984 | Log saved successfully for PGC0797             .
+2025-03-17 16:05:59,995 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 16:06:03,736 | Email sent successfully.
+2025-03-17 16:06:03,789 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:06:03,825 | Log saved successfully for PGC1034             .
+2025-03-17 16:06:03,832 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 16:06:07,475 | Email sent successfully.
+2025-03-17 16:06:07,535 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:06:07,554 | Log saved successfully for PGC1270             .
+2025-03-17 16:06:07,564 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 16:06:11,223 | Email sent successfully.
+2025-03-17 16:06:11,300 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:06:11,321 | Log saved successfully for PRC0955             .
+2025-03-17 16:06:11,336 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 16:06:11,337 | Done processing the data for invalid logout.
+2025-03-17 16:06:15,173 | Email sent successfully.
+2025-03-17 16:06:15,225 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:06:15,244 | Log saved successfully for PGC1366.
+2025-03-17 16:06:15,256 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:06:19,202 | Email sent successfully.
+2025-03-17 16:06:19,269 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:06:19,287 | Log saved successfully for PGC0371.
+2025-03-17 16:06:19,297 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:06:22,450 | Email sent successfully.
+2025-03-17 16:06:22,517 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 16:06:22,532 | Log saved successfully for PGC1451.
+2025-03-17 16:06:22,549 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:06:25,795 | Email sent successfully.
+2025-03-17 16:06:25,857 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:06:25,877 | Log saved successfully for PGC0993.
+2025-03-17 16:06:25,885 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:44:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:06:29,029 | Email sent successfully.
+2025-03-17 16:06:29,073 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:06:29,094 | Log saved successfully for PGC1478.
+2025-03-17 16:06:29,101 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:05:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:32,252 | Email sent successfully.
+2025-03-17 16:06:32,317 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:06:32,334 | Log saved successfully for PGC1378.
+2025-03-17 16:06:32,345 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:35,471 | Email sent successfully.
+2025-03-17 16:06:35,537 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 16:06:35,558 | Log saved successfully for PRC0182.
+2025-03-17 16:06:35,568 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:35:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:38,651 | Email sent successfully.
+2025-03-17 16:06:38,697 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:06:38,716 | Log saved successfully for PGC0452.
+2025-03-17 16:06:38,727 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:41:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:41,831 | Email sent successfully.
+2025-03-17 16:06:41,878 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:06:41,901 | Log saved successfully for PRC0016.
+2025-03-17 16:06:41,910 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:01:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:45,055 | Email sent successfully.
+2025-03-17 16:06:45,122 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 16:06:45,144 | Log saved successfully for PGC0590.
+2025-03-17 16:06:45,161 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:11:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:48,301 | Email sent successfully.
+2025-03-17 16:06:48,355 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:06:48,368 | Log saved successfully for PGC1444.
+2025-03-17 16:06:48,378 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:52:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:52,173 | Email sent successfully.
+2025-03-17 16:06:52,224 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 16:06:52,243 | Log saved successfully for PGC1511.
+2025-03-17 16:06:52,249 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:54:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:55,353 | Email sent successfully.
+2025-03-17 16:06:55,402 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:06:55,427 | Log saved successfully for ARX0065.
+2025-03-17 16:06:55,440 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:07:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:06:58,577 | Email sent successfully.
+2025-03-17 16:06:58,632 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 16:06:58,650 | Log saved successfully for PGC0574.
+2025-03-17 16:06:58,664 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:07:01,769 | Email sent successfully.
+2025-03-17 16:07:01,815 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 16:07:01,835 | Log saved successfully for PGC0516.
+2025-03-17 16:07:01,847 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:09:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:07:01,848 | Done processing the data for login IP address sharing.
+2025-03-17 16:07:05,744 | Email sent successfully.
+2025-03-17 16:07:05,795 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:07:05,813 | Log saved successfully for PRC0892.
+2025-03-17 16:07:05,824 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:07:08,965 | Email sent successfully.
+2025-03-17 16:07:09,097 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:07:09,136 | Log saved successfully for PRC1148.
+2025-03-17 16:07:09,215 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:07:09,216 | Done processing the data for logout IP address sharing.
+2025-03-17 16:09:09,737 | Email sent successfully.
+2025-03-17 16:09:09,801 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 16:09:09,819 | Log saved successfully for KIDC0282            .
+2025-03-17 16:09:09,831 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 16:09:12,684 | Email sent successfully.
+2025-03-17 16:09:12,733 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 16:09:12,750 | Log saved successfully for PGC0411             .
+2025-03-17 16:09:12,759 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 16:09:15,649 | Email sent successfully.
+2025-03-17 16:09:15,717 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:09:15,736 | Log saved successfully for PGC0797             .
+2025-03-17 16:09:15,748 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 16:09:18,501 | Email sent successfully.
+2025-03-17 16:09:18,560 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:09:18,580 | Log saved successfully for PGC1034             .
+2025-03-17 16:09:18,595 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 16:09:21,415 | Email sent successfully.
+2025-03-17 16:09:21,480 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:09:21,499 | Log saved successfully for PGC1270             .
+2025-03-17 16:09:21,515 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 16:09:24,420 | Email sent successfully.
+2025-03-17 16:09:24,488 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:09:24,507 | Log saved successfully for PRC0955             .
+2025-03-17 16:09:24,526 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 16:09:24,527 | Done processing the data for invalid logout.
+2025-03-17 16:09:27,851 | Email sent successfully.
+2025-03-17 16:09:27,940 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:09:27,961 | Log saved successfully for PGC1366.
+2025-03-17 16:09:28,000 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:09:31,652 | Email sent successfully.
+2025-03-17 16:09:31,712 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:09:31,736 | Log saved successfully for PGC0371.
+2025-03-17 16:09:31,746 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:09:34,682 | Email sent successfully.
+2025-03-17 16:09:34,771 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 16:09:34,805 | Log saved successfully for PGC1451.
+2025-03-17 16:09:34,817 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:09:37,718 | Email sent successfully.
+2025-03-17 16:09:37,768 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:09:37,783 | Log saved successfully for PGC0993.
+2025-03-17 16:09:37,794 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:44:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:09:41,110 | Email sent successfully.
+2025-03-17 16:09:41,156 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:09:41,169 | Log saved successfully for PGC1478.
+2025-03-17 16:09:41,178 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:05:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:09:43,975 | Email sent successfully.
+2025-03-17 16:09:44,039 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:09:44,054 | Log saved successfully for PGC1378.
+2025-03-17 16:09:44,075 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:09:46,988 | Email sent successfully.
+2025-03-17 16:09:47,049 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 16:09:47,067 | Log saved successfully for PRC0182.
+2025-03-17 16:09:47,079 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:35:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:09:49,886 | Email sent successfully.
+2025-03-17 16:09:49,926 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:09:49,942 | Log saved successfully for PGC0452.
+2025-03-17 16:09:49,953 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:41:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:09:52,850 | Email sent successfully.
+2025-03-17 16:09:52,945 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:09:52,992 | Log saved successfully for PRC0016.
+2025-03-17 16:09:53,026 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:01:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:09:55,935 | Email sent successfully.
+2025-03-17 16:09:56,006 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 16:09:56,024 | Log saved successfully for PGC0590.
+2025-03-17 16:09:56,035 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:11:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:09:58,869 | Email sent successfully.
+2025-03-17 16:09:58,943 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:09:58,974 | Log saved successfully for PGC1444.
+2025-03-17 16:09:58,984 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:52:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:10:01,821 | Email sent successfully.
+2025-03-17 16:10:01,885 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 16:10:01,902 | Log saved successfully for PGC1511.
+2025-03-17 16:10:01,910 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:54:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:10:04,729 | Email sent successfully.
+2025-03-17 16:10:04,802 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:10:04,815 | Log saved successfully for ARX0065.
+2025-03-17 16:10:04,832 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:07:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:10:08,256 | Email sent successfully.
+2025-03-17 16:10:08,374 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 16:10:08,426 | Log saved successfully for PGC0574.
+2025-03-17 16:10:08,459 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:10:11,345 | Email sent successfully.
+2025-03-17 16:10:11,394 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 16:10:11,422 | Log saved successfully for PGC0516.
+2025-03-17 16:10:11,431 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:09:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:10:11,432 | Done processing the data for login IP address sharing.
+2025-03-17 16:10:14,430 | Email sent successfully.
+2025-03-17 16:10:14,492 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:10:14,515 | Log saved successfully for PRC0892.
+2025-03-17 16:10:14,529 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:10:18,011 | Email sent successfully.
+2025-03-17 16:10:18,071 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:10:18,088 | Log saved successfully for PRC1148.
+2025-03-17 16:10:18,104 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:10:18,104 | Done processing the data for logout IP address sharing.
+2025-03-17 16:10:46,403 | Email sent successfully.
+2025-03-17 16:10:46,441 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 16:10:46,856 | Log saved successfully for KIDC0282            .
+2025-03-17 16:10:46,870 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 16:10:50,061 | Email sent successfully.
+2025-03-17 16:10:50,123 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 16:10:50,140 | Log saved successfully for PGC0411             .
+2025-03-17 16:10:50,151 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 16:10:54,071 | Email sent successfully.
+2025-03-17 16:10:54,125 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:10:54,143 | Log saved successfully for PGC0797             .
+2025-03-17 16:10:54,151 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 16:10:57,289 | Email sent successfully.
+2025-03-17 16:10:57,334 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:10:57,349 | Log saved successfully for PGC1034             .
+2025-03-17 16:10:57,359 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 16:11:00,463 | Email sent successfully.
+2025-03-17 16:11:00,515 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:11:00,533 | Log saved successfully for PGC1270             .
+2025-03-17 16:11:00,541 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 16:11:04,255 | Email sent successfully.
+2025-03-17 16:11:04,323 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:11:04,338 | Log saved successfully for PRC0955             .
+2025-03-17 16:11:04,353 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 16:11:04,353 | Done processing the data for invalid logout.
+2025-03-17 16:11:08,622 | Email sent successfully.
+2025-03-17 16:11:08,679 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 16:11:08,692 | Log saved successfully for PGC1451.
+2025-03-17 16:11:08,702 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:11:11,985 | Email sent successfully.
+2025-03-17 16:11:12,040 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:11:12,052 | Log saved successfully for PGC0993.
+2025-03-17 16:11:12,063 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:44:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:11:15,435 | Email sent successfully.
+2025-03-17 16:11:15,490 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:11:15,517 | Log saved successfully for PGC1478.
+2025-03-17 16:11:15,532 | Employee ID: PGC1478 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:05:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:19,483 | Email sent successfully.
+2025-03-17 16:11:19,545 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:11:19,563 | Log saved successfully for PGC1378.
+2025-03-17 16:11:19,572 | Employee ID: PGC1378 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:22:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:23,603 | Email sent successfully.
+2025-03-17 16:11:23,657 | Email was also sent to ANTONIO MAGTANGOL TORINO DE LEON
+2025-03-17 16:11:23,679 | Log saved successfully for PRC0182.
+2025-03-17 16:11:23,688 | Employee ID: PRC0182 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:35:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:27,087 | Email sent successfully.
+2025-03-17 16:11:27,138 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:11:27,154 | Log saved successfully for PGC0452.
+2025-03-17 16:11:27,167 | Employee ID: PGC0452 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:41:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:30,927 | Email sent successfully.
+2025-03-17 16:11:30,992 | Email was also sent to TRACY NICOLASORA MONTINOLA
+2025-03-17 16:11:31,015 | Log saved successfully for PRC0016.
+2025-03-17 16:11:31,025 | Employee ID: PRC0016 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:01:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:34,637 | Email sent successfully.
+2025-03-17 16:11:34,730 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 16:11:34,745 | Log saved successfully for PGC0590.
+2025-03-17 16:11:34,760 | Employee ID: PGC0590 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:11:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:37,944 | Email sent successfully.
+2025-03-17 16:11:38,001 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:11:38,019 | Log saved successfully for PGC1444.
+2025-03-17 16:11:38,038 | Employee ID: PGC1444 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:52:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:41,778 | Email sent successfully.
+2025-03-17 16:11:41,825 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 16:11:41,840 | Log saved successfully for PGC1511.
+2025-03-17 16:11:41,855 | Employee ID: PGC1511 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:54:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:45,432 | Email sent successfully.
+2025-03-17 16:11:45,482 | Email was also sent to JAYSON LISING MACALINAO
+2025-03-17 16:11:45,499 | Log saved successfully for ARX0065.
+2025-03-17 16:11:45,519 | Employee ID: ARX0065 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 08:07:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:49,339 | Email sent successfully.
+2025-03-17 16:11:49,393 | Email was also sent to MARIE CES LUGTU DE GUZMAN
+2025-03-17 16:11:49,409 | Log saved successfully for PGC0574.
+2025-03-17 16:11:49,418 | Employee ID: PGC0574 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:30:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:52,694 | Email sent successfully.
+2025-03-17 16:11:52,745 | Email was also sent to LEONARD VINCE GALURA BACANI
+2025-03-17 16:11:52,768 | Log saved successfully for PGC0516.
+2025-03-17 16:11:52,784 | Employee ID: PGC0516 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:09:00 AM | IP Address: 115.84.243.13
+2025-03-17 16:11:55,945 | Email sent successfully.
+2025-03-17 16:11:56,001 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:11:56,019 | Log saved successfully for PGC1366.
+2025-03-17 16:11:56,030 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:11:59,749 | Email sent successfully.
+2025-03-17 16:11:59,792 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:11:59,806 | Log saved successfully for PGC0371.
+2025-03-17 16:11:59,816 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:11:59,817 | Done processing the data for login IP address sharing.
+2025-03-17 16:12:03,182 | Email sent successfully.
+2025-03-17 16:12:03,280 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:12:03,305 | Log saved successfully for PRC0892.
+2025-03-17 16:12:03,330 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:12:06,571 | Email sent successfully.
+2025-03-17 16:12:06,621 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:12:06,645 | Log saved successfully for PRC1148.
+2025-03-17 16:12:06,671 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:12:06,672 | Done processing the data for logout IP address sharing.
+2025-03-17 16:20:39,349 | Email sent successfully.
+2025-03-17 16:20:39,401 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 16:20:39,428 | Log saved successfully for KIDC0282            .
+2025-03-17 16:20:39,436 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 16:20:43,116 | Email sent successfully.
+2025-03-17 16:20:43,176 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 16:20:43,219 | Log saved successfully for PGC0411             .
+2025-03-17 16:20:43,229 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 16:20:46,779 | Email sent successfully.
+2025-03-17 16:20:46,846 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:20:46,866 | Log saved successfully for PGC0797             .
+2025-03-17 16:20:46,888 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 16:20:49,979 | Email sent successfully.
+2025-03-17 16:20:50,030 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:20:50,049 | Log saved successfully for PGC1034             .
+2025-03-17 16:20:50,059 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 16:20:53,175 | Email sent successfully.
+2025-03-17 16:20:53,227 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:20:53,261 | Log saved successfully for PGC1270             .
+2025-03-17 16:20:53,274 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 16:20:56,963 | Email sent successfully.
+2025-03-17 16:20:57,014 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 16:20:57,041 | Log saved successfully for PRC0955             .
+2025-03-17 16:20:57,051 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 16:20:57,052 | Done processing the data for invalid logout.
+2025-03-17 16:21:00,443 | Email sent successfully.
+2025-03-17 16:21:00,497 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:21:00,524 | Log saved successfully for PGC1366.
+2025-03-17 16:21:00,533 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:21:03,612 | Email sent successfully.
+2025-03-17 16:21:03,667 | Email was also sent to MARK ANTHONY ABADO FANGON
+2025-03-17 16:21:03,685 | Log saved successfully for PGC0371.
+2025-03-17 16:21:03,703 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:21:07,381 | Email sent successfully.
+2025-03-17 16:21:07,415 | Email was also sent to MILYN ROSE ANN LANSANGAN FORTEZ
+2025-03-17 16:21:07,427 | Log saved successfully for PGC1451.
+2025-03-17 16:21:07,432 | Employee ID: PGC1451 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:24:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:21:11,219 | Email sent successfully.
+2025-03-17 16:21:11,283 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 16:21:11,301 | Log saved successfully for PGC0993.
+2025-03-17 16:21:11,312 | Employee ID: PGC0993 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:44:00 AM | IP Address: 10.63.3.18
+2025-03-17 16:21:11,312 | Done processing the data for login IP address sharing.
+2025-03-17 16:21:14,603 | Email sent successfully.
+2025-03-17 16:21:14,660 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:21:14,680 | Log saved successfully for PRC0892.
+2025-03-17 16:21:14,696 | Employee ID: PRC0892 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 09:38:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:21:17,885 | Email sent successfully.
+2025-03-17 16:21:17,938 | Email was also sent to MARIA CRISTINA CARTABIO BAGADIONG
+2025-03-17 16:21:17,956 | Log saved successfully for PRC1148.
+2025-03-17 16:21:17,966 | Employee ID: PRC1148 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 10:30:00 PM | IP Address: 10.63.7.68
+2025-03-17 16:21:17,967 | Done processing the data for logout IP address sharing.
+2025-03-17 16:52:42,853 | Failed to send email. Status Code: 400
+2025-03-17 16:52:45,207 | Log saved successfully for PGC1366.
+2025-03-17 16:52:45,222 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:52:45,442 | Failed to send email. Status Code: 400
+2025-03-17 16:52:45,464 | Log saved successfully for PGC0371.
+2025-03-17 16:52:45,484 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:52:45,484 | Done processing the data for login IP address sharing.
+2025-03-17 16:57:05,889 | Email sent successfully.
+2025-03-17 16:57:05,951 | Email was also sent to CONSTANTINA SAN JUAN MARTIN
+2025-03-17 16:57:06,391 | Log saved successfully for PGC1366.
+2025-03-17 16:57:06,407 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:57:10,089 | Email sent successfully.
+2025-03-17 16:57:10,152 | Email was also sent to ERSUS JOSEPH SANTOS SANTOS
+2025-03-17 16:57:10,173 | Log saved successfully for PGC0371.
+2025-03-17 16:57:10,191 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 16:57:10,192 | Done processing the data for login IP address sharing.
+2025-03-17 17:07:49,110 | Email sent successfully.
+2025-03-17 17:07:49,172 | Email was also sent to CONSTANTINA SAN JUAN MARTIN
+2025-03-17 17:07:49,186 | Log saved successfully for PGC1366.
+2025-03-17 17:07:49,196 | Employee ID: PGC1366 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 17:07:52,242 | Email sent successfully.
+2025-03-17 17:07:52,287 | Email was also sent to ERSUS JOSEPH SANTOS SANTOS
+2025-03-17 17:07:52,302 | Log saved successfully for PGC0371.
+2025-03-17 17:07:52,312 | Employee ID: PGC0371 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 03-14-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-17 17:07:52,313 | Done processing the data for login IP address sharing.
+2025-03-17 17:08:55,218 | Email sent successfully.
+2025-03-17 17:08:55,267 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 17:08:55,283 | Log saved successfully for KIDC0282            .
+2025-03-17 17:08:55,298 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 17:08:58,572 | Email sent successfully.
+2025-03-17 17:08:58,635 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 17:08:58,652 | Log saved successfully for PGC0411             .
+2025-03-17 17:08:58,664 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 17:09:01,740 | Email sent successfully.
+2025-03-17 17:09:01,789 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:09:01,799 | Log saved successfully for PGC0797             .
+2025-03-17 17:09:01,805 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 17:09:05,388 | Email sent successfully.
+2025-03-17 17:09:05,441 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 17:09:05,457 | Log saved successfully for PGC1034             .
+2025-03-17 17:09:05,467 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 17:09:08,532 | Email sent successfully.
+2025-03-17 17:09:08,582 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:09:08,600 | Log saved successfully for PGC1270             .
+2025-03-17 17:09:08,612 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 17:09:11,696 | Email sent successfully.
+2025-03-17 17:09:11,750 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:09:11,767 | Log saved successfully for PRC0955             .
+2025-03-17 17:09:11,778 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 17:09:11,779 | Done processing the data for invalid logout.
+2025-03-17 17:12:39,238 | ERROR: Fetching out date for employee KIDC0282: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:12:42,142 | Email sent successfully.
+2025-03-17 17:12:42,203 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 17:12:42,651 | Log saved successfully for KIDC0282            .
+2025-03-17 17:12:42,663 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 17:12:42,703 | ERROR: Fetching out date for employee PGC0411: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:12:45,649 | Email sent successfully.
+2025-03-17 17:12:45,711 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 17:12:45,732 | Log saved successfully for PGC0411             .
+2025-03-17 17:12:45,749 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 17:12:45,795 | ERROR: Fetching out date for employee PGC0797: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:12:48,800 | Email sent successfully.
+2025-03-17 17:12:48,857 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:12:48,869 | Log saved successfully for PGC0797             .
+2025-03-17 17:12:48,884 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 17:12:48,939 | ERROR: Fetching out date for employee PGC1034: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:12:52,595 | Email sent successfully.
+2025-03-17 17:12:52,678 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 17:12:52,725 | Log saved successfully for PGC1034             .
+2025-03-17 17:12:52,767 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 17:12:52,830 | ERROR: Fetching out date for employee PGC1270: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:12:56,364 | Email sent successfully.
+2025-03-17 17:12:56,423 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:12:56,443 | Log saved successfully for PGC1270             .
+2025-03-17 17:12:56,452 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 17:12:56,491 | ERROR: Fetching out date for employee PRC0955: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:12:59,954 | Email sent successfully.
+2025-03-17 17:13:00,003 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:13:00,016 | Log saved successfully for PRC0955             .
+2025-03-17 17:13:00,024 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 17:13:00,025 | Done processing the data for invalid logout.
+2025-03-17 17:15:00,657 | ERROR: Fetching out date for employee KIDC0282: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:15:03,949 | Email sent successfully.
+2025-03-17 17:15:04,008 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 17:15:04,025 | Log saved successfully for KIDC0282            .
+2025-03-17 17:15:04,039 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 17:15:04,076 | ERROR: Fetching out date for employee PGC0411: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:15:07,549 | Email sent successfully.
+2025-03-17 17:15:07,604 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 17:15:07,620 | Log saved successfully for PGC0411             .
+2025-03-17 17:15:07,628 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 17:15:07,674 | ERROR: Fetching out date for employee PGC0797: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:15:11,236 | Email sent successfully.
+2025-03-17 17:15:11,286 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:15:11,308 | Log saved successfully for PGC0797             .
+2025-03-17 17:15:11,320 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 17:15:11,356 | ERROR: Fetching out date for employee PGC1034: strptime() argument 1 must be str, not datetime.datetime
+2025-03-17 17:20:02,782 | Email sent successfully.
+2025-03-17 17:20:02,834 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 17:20:02,853 | Log saved successfully for KIDC0282            .
+2025-03-17 17:20:02,882 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 17:20:06,116 | Email sent successfully.
+2025-03-17 17:20:06,166 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 17:20:06,180 | Log saved successfully for PGC0411             .
+2025-03-17 17:20:06,191 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 17:20:09,580 | Email sent successfully.
+2025-03-17 17:20:09,630 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:20:09,648 | Log saved successfully for PGC0797             .
+2025-03-17 17:20:09,658 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 17:20:13,214 | Email sent successfully.
+2025-03-17 17:20:13,268 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 17:20:13,285 | Log saved successfully for PGC1034             .
+2025-03-17 17:20:13,295 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 17:20:17,140 | Email sent successfully.
+2025-03-17 17:20:17,185 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:20:17,206 | Log saved successfully for PGC1270             .
+2025-03-17 17:20:17,215 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 17:20:20,343 | Email sent successfully.
+2025-03-17 17:20:20,370 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:20:20,384 | Log saved successfully for PRC0955             .
+2025-03-17 17:20:20,390 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 17:20:20,391 | Done processing the data for invalid logout.
+2025-03-17 17:30:28,619 | Done processing the data for invalid logout.
+2025-03-17 17:31:00,386 | Email sent successfully.
+2025-03-17 17:31:00,450 | Email was also sent to JUSTINE PANGILINAN ORPILLA
+2025-03-17 17:31:00,467 | Log saved successfully for KIDC0282            .
+2025-03-17 17:31:00,618 | Log successfully removed for KIDC0282            .
+2025-03-17 17:31:00,628 | Employee ID:KIDC0282 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 21:30:00 | IP Address: 136.158.43.83
+2025-03-17 17:31:04,164 | Email sent successfully.
+2025-03-17 17:31:04,215 | Email was also sent to SEVERO LAGUILLES MORALEDA
+2025-03-17 17:31:04,232 | Log saved successfully for PGC0411             .
+2025-03-17 17:31:04,353 | Log successfully removed for PGC0411             .
+2025-03-17 17:31:04,364 | Employee ID:PGC0411 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 22:01:00 | IP Address: 49.144.194.8
+2025-03-17 17:31:08,065 | Email sent successfully.
+2025-03-17 17:31:08,124 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:31:08,141 | Log saved successfully for PGC0797             .
+2025-03-17 17:31:08,237 | Log successfully removed for PGC0797             .
+2025-03-17 17:31:08,250 | Employee ID:PGC0797 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:45:00 | IP Address: 209.35.164.145
+2025-03-17 17:31:11,967 | Email sent successfully.
+2025-03-17 17:31:12,072 | Email was also sent to MERLY SERATO CAPILI
+2025-03-17 17:31:12,082 | Log saved successfully for PGC1034             .
+2025-03-17 17:31:12,219 | Log successfully removed for PGC1034             .
+2025-03-17 17:31:12,229 | Employee ID:PGC1034 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:50:00 | IP Address: 110.54.146.108
+2025-03-17 17:31:16,053 | Email sent successfully.
+2025-03-17 17:31:16,101 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:31:16,124 | Log saved successfully for PGC1270             .
+2025-03-17 17:31:16,165 | Log successfully removed for PGC1270             .
+2025-03-17 17:31:16,176 | Employee ID:PGC1270 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 17:51:00 | IP Address: 110.54.133.209
+2025-03-17 17:31:19,944 | Email sent successfully.
+2025-03-17 17:31:19,999 | Email was also sent to TOMAS CORPUZ GELACIO III
+2025-03-17 17:31:20,016 | Log saved successfully for PRC0955             .
+2025-03-17 17:31:20,156 | Log successfully removed for PRC0955             .
+2025-03-17 17:31:20,175 | Employee ID:PRC0955 | Attendance Date: 2025-03-14 00:00:00 | Logs Time: 2025-03-14 19:29:00 | IP Address: 112.198.97.40
+2025-03-17 17:31:20,176 | Done processing the data for invalid logout.

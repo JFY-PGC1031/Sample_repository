@@ -1,0 +1,187 @@
+2025-03-20 14:29:18,321 | Email sent successfully.
+2025-03-20 14:29:18,384 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 14:29:18,459 | Log saved successfully for PGC0764             .
+2025-03-20 14:29:18,531 | Log successfully removed for PGC0764.
+2025-03-20 14:29:18,538 | Employee ID:PGC0764 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:10:00 | IP Address: 112.198.69.117
+2025-03-20 14:29:20,099 | Email sent successfully.
+2025-03-20 14:29:20,136 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 14:29:20,147 | Log saved successfully for PGC1333             .
+2025-03-20 14:29:20,217 | Log successfully removed for PGC1333.
+2025-03-20 14:29:20,224 | Employee ID:PGC1333 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:05:00 | IP Address: 112.209.180.31
+2025-03-20 14:29:21,837 | Email sent successfully.
+2025-03-20 14:29:21,876 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 14:29:21,889 | Log saved successfully for PRC0955             .
+2025-03-20 14:29:21,960 | Log successfully removed for PRC0955.
+2025-03-20 14:29:21,965 | Employee ID:PRC0955 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 19:13:00 | IP Address: 112.198.104.187
+2025-03-20 14:29:21,966 | Done processing the data for invalid logout.
+2025-03-20 14:30:49,549 | ERROR: Fetching out date for employee PGC0764: 'NoneType' object has no attribute 'strftime'
+2025-03-20 14:30:51,328 | Email sent successfully.
+2025-03-20 14:30:51,390 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 14:30:51,506 | Log saved successfully for PGC0764             .
+2025-03-20 14:30:51,526 | Log successfully removed for PGC0764.
+2025-03-20 14:30:51,537 | Employee ID:PGC0764 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: None | IP Address: 112.198.69.117
+2025-03-20 14:30:51,559 | ERROR: Fetching out date for employee PGC1333: 'NoneType' object has no attribute 'strftime'
+2025-03-20 14:30:53,133 | Email sent successfully.
+2025-03-20 14:30:53,175 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 14:30:53,188 | Log saved successfully for PGC1333             .
+2025-03-20 14:30:53,206 | Log successfully removed for PGC1333.
+2025-03-20 14:30:53,214 | Employee ID:PGC1333 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: None | IP Address: 112.209.180.31
+2025-03-20 14:30:53,240 | ERROR: Fetching out date for employee PRC0955: 'NoneType' object has no attribute 'strftime'
+2025-03-20 14:30:54,709 | Email sent successfully.
+2025-03-20 14:30:54,749 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 14:30:54,761 | Log saved successfully for PRC0955             .
+2025-03-20 14:30:54,782 | Log successfully removed for PRC0955.
+2025-03-20 14:30:54,790 | Employee ID:PRC0955 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: None | IP Address: 112.198.104.187
+2025-03-20 14:30:54,791 | Done processing the data for invalid logout.
+2025-03-20 14:40:27,519 | Email sent successfully.
+2025-03-20 14:40:27,572 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 14:40:27,601 | Log saved successfully for PGC0764             .
+2025-03-20 14:40:27,626 | Log successfully removed for PGC0764.
+2025-03-20 14:40:27,636 | Employee ID:PGC0764 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:10:00 | IP Address: 112.198.69.117
+2025-03-20 14:40:29,160 | Email sent successfully.
+2025-03-20 14:40:29,238 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 14:40:29,255 | Log saved successfully for PGC1333             .
+2025-03-20 14:40:29,274 | Log successfully removed for PGC1333.
+2025-03-20 14:40:29,281 | Employee ID:PGC1333 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:05:00 | IP Address: 112.209.180.31
+2025-03-20 14:40:30,845 | Email sent successfully.
+2025-03-20 14:40:30,888 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 14:40:30,899 | Log saved successfully for PRC0955             .
+2025-03-20 14:40:30,916 | Log successfully removed for PRC0955.
+2025-03-20 14:40:30,922 | Employee ID:PRC0955 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 19:13:00 | IP Address: 112.198.104.187
+2025-03-20 14:40:30,923 | Done processing the data for invalid logout.
+2025-03-20 15:04:25,801 | Email sent successfully.
+2025-03-20 15:04:25,857 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 15:04:28,259 | Log saved successfully for PGC0764             .
+2025-03-20 15:04:28,312 | ERROR: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '07'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2025-03-20 15:04:28,317 | Employee ID:PGC0764 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:10:00 | IP Address: 112.198.69.117
+2025-03-20 15:04:29,840 | Email sent successfully.
+2025-03-20 15:04:29,886 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 15:04:29,900 | Log saved successfully for PGC1333             .
+2025-03-20 15:04:29,931 | ERROR: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '09'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2025-03-20 15:04:29,939 | Employee ID:PGC1333 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:05:00 | IP Address: 112.209.180.31
+2025-03-20 15:04:31,538 | Email sent successfully.
+2025-03-20 15:04:31,570 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 15:04:31,581 | Log saved successfully for PRC0955             .
+2025-03-20 15:04:31,617 | ERROR: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '10'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2025-03-20 15:04:31,625 | Employee ID:PRC0955 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 19:13:00 | IP Address: 112.198.104.187
+2025-03-20 15:04:31,626 | Done processing the data for invalid logout.
+2025-03-20 15:06:12,572 | Email sent successfully.
+2025-03-20 15:06:12,630 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 15:06:12,639 | Log saved successfully for PGC0764             .
+2025-03-20 15:06:12,722 | Log successfully removed for PGC0764.
+2025-03-20 15:06:12,730 | Employee ID:PGC0764 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:10:00 | IP Address: 112.198.69.117
+2025-03-20 15:06:14,441 | Email sent successfully.
+2025-03-20 15:06:14,482 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 15:06:14,492 | Log saved successfully for PGC1333             .
+2025-03-20 15:06:14,530 | Log successfully removed for PGC1333.
+2025-03-20 15:06:14,539 | Employee ID:PGC1333 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 20:05:00 | IP Address: 112.209.180.31
+2025-03-20 15:06:15,808 | Email sent successfully.
+2025-03-20 15:06:15,843 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 15:06:15,851 | Log saved successfully for PRC0955             .
+2025-03-20 15:06:15,901 | Log successfully removed for PRC0955.
+2025-03-20 15:06:15,907 | Employee ID:PRC0955 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 2025-03-19 19:13:00 | IP Address: 112.198.104.187
+2025-03-20 15:06:15,908 | Done processing the data for invalid logout.
+2025-03-20 15:26:08,972 | Email sent successfully.
+2025-03-20 15:26:09,029 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 15:26:10,993 | Log saved successfully for PGC1366.
+2025-03-20 15:26:11,001 | Employee ID: PGC1366 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 07:30:00 AM | IP Address: 10.63.24.37
+2025-03-20 15:26:12,535 | Email sent successfully.
+2025-03-20 15:26:12,568 | Email was also sent to TRIXCIA MENDOZA DUNQUE
+2025-03-20 15:26:12,579 | Log saved successfully for PGC0371.
+2025-03-20 15:26:12,585 | Employee ID: PGC0371 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 07:31:00 AM | IP Address: 10.63.24.37
+2025-03-20 15:26:14,265 | Email sent successfully.
+2025-03-20 15:26:14,301 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 15:26:14,314 | Log saved successfully for PIC0004.
+2025-03-20 15:26:14,321 | Employee ID: PIC0004 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 08:53:00 AM | IP Address: 10.63.2.47
+2025-03-20 15:26:15,948 | Email sent successfully.
+2025-03-20 15:26:15,980 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 15:26:15,994 | Log saved successfully for PIC0003.
+2025-03-20 15:26:16,000 | Employee ID: PIC0003 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 08:23:00 AM | IP Address: 10.63.2.47
+2025-03-20 15:26:16,000 | Done processing the data for login IP address sharing.
+2025-03-20 15:42:30,188 | Email sent successfully.
+2025-03-20 15:42:30,241 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 15:42:32,636 | Log saved successfully for PIC0004.
+2025-03-20 15:42:32,642 | Employee ID: PIC0004 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 08:53:00 AM | IP Address: 10.63.2.47
+2025-03-20 15:42:34,086 | Email sent successfully.
+2025-03-20 15:42:34,124 | Email was also sent to GILBERT PERFIÑAN LAMAN
+2025-03-20 15:42:34,136 | Log saved successfully for PIC0003.
+2025-03-20 15:42:34,144 | Employee ID: PIC0003 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 08:23:00 AM | IP Address: 10.63.2.47
+2025-03-20 15:42:34,145 | Done processing the data for login IP address sharing.
+2025-03-20 16:16:17,832 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - time data '03-19-2025 04:37:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:16:17,890 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - time data '03-19-2025 08:42:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:16:19,519 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - time data '03-19-2025 06:23:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:16:19,626 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - time data '03-19-2025 06:22:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:16:19,626 | Done processing the data for logout IP address sharing.
+2025-03-20 16:19:04,728 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - time data '03-19-2025 04:37:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:04,758 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - time data '03-19-2025 08:42:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:04,790 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - time data '03-19-2025 06:23:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:04,822 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - time data '03-19-2025 06:22:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:04,823 | Done processing the data for logout IP address sharing.
+2025-03-20 16:19:54,868 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - time data '03-19-2025 06:23:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:54,903 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - time data '03-19-2025 06:22:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:54,939 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - time data '03-19-2025 04:37:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:54,980 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - time data '03-19-2025 08:42:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:19:54,981 | Done processing the data for logout IP address sharing.
+2025-03-20 16:20:37,610 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - time data '03-19-2025 06:23:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:20:37,645 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - time data '03-19-2025 06:22:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:20:37,683 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - time data '03-19-2025 04:37:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:20:37,718 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - time data '03-19-2025 08:42:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:20:37,719 | Done processing the data for logout IP address sharing.
+2025-03-20 16:21:30,056 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - time data '03-19-2025 04:37:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:21:30,095 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - time data '03-19-2025 08:42:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:21:30,126 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - time data '03-19-2025 06:23:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:21:30,163 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - time data '03-19-2025 06:22:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:21:30,163 | Done processing the data for logout IP address sharing.
+2025-03-20 16:22:15,039 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - time data '03-19-2025 04:37:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:22:15,074 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - time data '03-19-2025 08:42:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:22:15,111 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - time data '03-19-2025 06:23:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:22:15,147 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - time data '03-19-2025 06:22:00 PM' does not match format '%Y-%m-%d %H:%M:%S'
+2025-03-20 16:22:15,148 | Done processing the data for logout IP address sharing.
+2025-03-20 16:23:16,411 | Email sent successfully.
+2025-03-20 16:23:16,466 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 16:23:18,008 | Log saved successfully for PRC0978.
+2025-03-20 16:23:18,015 | Employee ID: PRC0978 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 07:30:00 AM | IP Address: 10.63.7.68
+2025-03-20 16:23:19,556 | Email sent successfully.
+2025-03-20 16:23:19,594 | Email was also sent to TRIXCIA MENDOZA DUNQUE
+2025-03-20 16:23:19,607 | Log saved successfully for PRC1148.
+2025-03-20 16:23:19,616 | Employee ID: PRC1148 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 09:41:00 AM | IP Address: 10.63.7.68
+2025-03-20 16:23:21,366 | Email sent successfully.
+2025-03-20 16:23:21,408 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 16:23:21,421 | Log saved successfully for LTS0212.
+2025-03-20 16:23:21,431 | Employee ID: LTS0212 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 09:11:00 AM | IP Address: 10.63.16.18
+2025-03-20 16:23:22,595 | Email sent successfully.
+2025-03-20 16:23:22,635 | Email was also sent to IRIS JOY SARMIENTO GARCIA
+2025-03-20 16:23:22,704 | Log saved successfully for UTCI1018.
+2025-03-20 16:23:22,713 | Employee ID: UTCI1018 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 09:14:00 AM | IP Address: 10.63.16.18
+2025-03-20 16:23:22,714 | Done processing the data for logout IP address sharing.
+2025-03-20 16:25:24,598 | Date format error for Employee LTS0212: 03-19-2025 06:23:00 PM - unconverted data remains:  PM
+2025-03-20 16:25:24,634 | Date format error for Employee UTCI1018: 03-19-2025 06:22:00 PM - unconverted data remains:  PM
+2025-03-20 16:25:24,669 | Date format error for Employee PRC0978: 03-19-2025 04:37:00 PM - unconverted data remains:  PM
+2025-03-20 16:25:24,710 | Date format error for Employee PRC1148: 03-19-2025 08:42:00 PM - unconverted data remains:  PM
+2025-03-20 16:25:24,711 | Done processing the data for logout IP address sharing.
+2025-03-20 16:27:31,928 | Email sent successfully.
+2025-03-20 16:27:31,986 | Email was also sent to EDRALYN MENDOZA DIMACULANGAN
+2025-03-20 16:27:31,999 | Log saved successfully for LTS0212.
+2025-03-20 16:27:32,006 | Employee ID: LTS0212 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 06:23:00 PM | IP Address: 10.63.16.18
+2025-03-20 16:27:33,139 | Email sent successfully.
+2025-03-20 16:27:33,182 | Email was also sent to IRIS JOY SARMIENTO GARCIA
+2025-03-20 16:27:33,195 | Log saved successfully for UTCI1018.
+2025-03-20 16:27:33,203 | Employee ID: UTCI1018 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 06:22:00 PM | IP Address: 10.63.16.18
+2025-03-20 16:27:34,635 | Email sent successfully.
+2025-03-20 16:27:34,668 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 16:27:34,681 | Log saved successfully for PRC0978.
+2025-03-20 16:27:34,689 | Employee ID: PRC0978 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 04:37:00 PM | IP Address: 10.63.7.68
+2025-03-20 16:27:35,713 | Email sent successfully.
+2025-03-20 16:27:35,748 | Email was also sent to TRIXCIA MENDOZA DUNQUE
+2025-03-20 16:27:35,760 | Log saved successfully for PRC1148.
+2025-03-20 16:27:35,766 | Employee ID: PRC1148 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 08:42:00 PM | IP Address: 10.63.7.68
+2025-03-20 16:27:35,767 | Done processing the data for logout IP address sharing.
+2025-03-20 16:34:31,022 | Email sent successfully.
+2025-03-20 16:34:31,082 | Email was also sent to SERINA MARIE FERNANDEZ GATDULA
+2025-03-20 16:34:31,496 | Log saved successfully for PRC0978.
+2025-03-20 16:34:31,503 | Employee ID: PRC0978 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 04:37:00 PM | IP Address: 10.63.7.68
+2025-03-20 16:34:32,844 | Email sent successfully.
+2025-03-20 16:34:32,880 | Email was also sent to TRIXCIA MENDOZA DUNQUE
+2025-03-20 16:34:32,894 | Log saved successfully for PRC1148.
+2025-03-20 16:34:32,902 | Employee ID: PRC1148 | Attendance Date: 2025-03-19 00:00:00 | Logs Time: 03-19-2025 08:42:00 PM | IP Address: 10.63.7.68
+2025-03-20 16:34:32,903 | Done processing the data for logout IP address sharing.
