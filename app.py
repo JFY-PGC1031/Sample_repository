@@ -1,565 +1,123 @@
 import os
 from datetime import datetime
 from flask import Flask
-import pyodbc
 from dotenv import load_dotenv
 import logging
 import json
 import requests
-from plyer import notification
-
-current_date = datetime.now()
-folderName = current_date.strftime('%m-%Y')
-logFileName = current_date.strftime('%m-%d-%Y')
-
-# current_directory = os.path.dirname(__file__)
-# logging.basicConfig(filename=os.path.join(current_directory, "logs", folderName, f"LOG-{logFileName}.log"),
-#                     level=logging.INFO, format='%(asctime)s | %(message)s')
-
-current_directory = os.path.dirname(__file__)
-log_folder_path = os.path.join(current_directory, "logs", folderName)
-# Creates the folder if it doesn't exist
-os.makedirs(log_folder_path, exist_ok=True)
-log_file_path = os.path.join(log_folder_path, f"LOG-{logFileName}.log")
-logging.basicConfig(filename=log_file_path,
-                    level=logging.INFO,
-                    format='%(asctime)s | %(message)s')
+import sys
+import traceback
+import html
+from flask import Flask, request, jsonify
+from google.cloud import bigquery
+from function import bq_client_reader
 
 
-icon_path = os.path.join(current_directory, "process.ico")
-
-load_dotenv()
-
-DB_SERVER = os.getenv('DB_SERVER')
-DB_NAME = os.getenv('DB_NAME')
-DB_USERNAME = os.getenv('DB_USERNAME')
-DB_PASSWORD = os.getenv('DB_PASSWORD')
-DB_DRIVER = '{ODBC Driver 17 for SQL Server}'
-
-EMAIL_SENDER_API = "https://emailsender-740032229271.us-central1.run.app/send_email"
+# New version of email sender api that receives a "display_name" to customize email display name
+EMAIL_SENDER_API = "https://email-sender-api-v2-740032229271.us-west1.run.app/send_email"
 
 
-def connect_db():
+
+def get_email_recipients(email_header):
+
     try:
-        conn = pyodbc.connect(
-            f'DRIVER={DB_DRIVER};SERVER={DB_SERVER};DATABASE={DB_NAME};UID={DB_USERNAME};PWD={DB_PASSWORD}')
 
-        # print("Connected to database.")
-        # logging.info(f"Connected the database.")
-        return conn
-    except Exception as e:
-        logging.info(f"Error connecting to database: {e}")
-        print(f"Error connecting to database: {e}")
-        return None
+        ## ** USE THIS CODE WHEN IN PRODUCTION/LIVE SERVER ** ##
+        # query_get_email_recipients_PROD = f"""
+        # SELECT email, email_header FROM `pgc-finance-and-accounting.ds_dev.tbl_NS_vs_RMS_Daily_Summary_Email_Recipients`
+        # WHERE 1=1
+        #     AND is_deleted = False
+        #     AND email_header = @email_header
+        # """
 
+        ## ** USE THIS CODE WHEN TEST ONLY ** ##
+        query_get_email_recipients_TEST = f"""
+        SELECT email, email_header FROM `pgc-finance-and-accounting.ds_dev.tbl_NS_vs_RMS_Daily_Summary_Email_Recipients_TEST`
+        WHERE 1=1
+            AND is_deleted = False
+            AND email_header = @email_header
+        """
 
-def get_invalid_logout():
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
+        query_parameters = [
+        bigquery.ScalarQueryParameter("email_header", "STRING", email_header)]
 
-        notification.notify(
-            title='HCM Email Sender',
-            message='Starting to process the data.',
-            timeout=10,
-            app_icon=icon_path
-        )
+        job_config = bigquery.QueryJobConfig(query_parameters=query_parameters)
+        results = bq_client_reader.query(query_get_email_recipients_TEST, job_config=job_config).result()
 
-        # query = '''select top 2 * from vw_hcm_invalid_attempts'''
-        query = '''
-            select * from vw_hcm_invalid_attempts
-            where cast(rtrim(EMP_STAFFID) as varchar(50)) + '-' + cast(ATTENDANCE_DATE as varchar(50)) not in (
-            select cast(rtrim([emp_staffid]) as varchar(50)) + '-' + cast([attendanceDate] as varchar(50)) from tbl_Invalid_logs_execution_logs_per_employee)
-            and format(ATTENDANCE_DATE,'MM-dd-yyyy') = format(DATEADD(day, -1, getdate()),'MM-dd-yyyy')
-            and ATT_ACCESS_IP_OUT <> ''
-            '''
-        cursor.execute(query)
+# S
 
-        records = cursor.fetchall()
+        email = []
 
-        for row in records:
-            empid = row[0]
-            attendance_date = row[1]
-            # formatted_date = attendance_date.strftime(
-            #     "%m-%d-%Y")
+        for row in results:
+            email.append(row['email'])
 
-            if not is_executed(empid.rstrip(), attendance_date, "unauthorized"):
-                out_date = row[2]
-                ip_address = row[3]
+        print(f"""These are the email for the email header: {email_header}""")
+        print(email)
 
-                email_subject = "Unauthorized HCM Sign-Out Outside Company Premises"
-
-                send_email(empid, email_subject, get_out_date(empid.rstrip(), attendance_date),
-                           ip_address, "unauthorized")
-
-                save_execution_logs(empid, attendance_date,
-                                    "unauthorized", "logout")
-
-                remove_logs(empid, attendance_date)
-
-                result = f"Employee ID:{empid.rstrip()} | Attendance Date: {attendance_date} | Logs Time: {out_date} | IP Address: {ip_address}"
-                print(result)
-                logging.info(result)
-
-        print("Done processing the data for invalid logout.")
-        logging.info("Done processing the data for invalid logout.")
+        # Return the values in a list
+        return email
 
     except Exception as e:
-        logging.info(f"ERROR: Fetching employee logout data {e}")
-        print(f"ERROR: Fetching employee logout data {e}")
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
+        log_api_error_activity("NS vs RMS: Daily Email Sender - get_email_recipients function", e)
 
 
-def get_invalid_login_for_ip_sharing():
+def get_daily_summary():
     try:
-        conn = connect_db()
-        cursor = conn.cursor()
+        query_daily_summary = f"""SELECT
+                        category_name,
+                        match_count,
+                        not_in_ns_count,
+                        not_in_rms_count
+                    FROM `pgc-finance-and-accounting.ds_dev.pt_NS_vs_RMS_daily_and_weekly_summary_table`
+                        WHERE captured_date = CURRENT_DATE('Asia/Manila')
+                        ORDER BY category_name ASC"""
 
-        query = '''SELECT * FROM vw_hcm_ip_sharing_login where ATT_ACCESS_IP <> '' and format(ATTENDANCE_DATE,'MM-dd-yyyy') = format(DATEADD(day, -1, getdate()),'MM-dd-yyyy')'''
-        cursor.execute(query)
+        job_config = bigquery.QueryJobConfig()
+        results = bq_client_reader.query(query_daily_summary, job_config=job_config).result()
 
-        records = cursor.fetchall()
+        html_lines = []
 
-        for row in records:
-            attendance_date = row[0]
-            att_access_ip = row[1]
-            emp_ids = row[2]
+        for row in results:
+            category = row['category_name']
+            match_count = row['match_count']
+            not_in_ns_count = row['not_in_ns_count']
+            not_in_rms_count = row['not_in_rms_count']
 
-            ids = emp_ids.split(",")
-            for emp_id in ids:
-                if not is_executed(emp_id.rstrip(), attendance_date, "sharing"):
-                    print(f"Processing Employee ID: {emp_id.rstrip()}")
+            html_lines.append(f""" <tr><td style='text-align:left;'>{category}</td><td style='text-align:right;'>{match_count}</td><td style='text-align:right;'>{not_in_ns_count}</td><td style='text-align:right;'>{not_in_rms_count}</td>""")
 
-                    in_date = get_in_date(emp_id.rstrip(), attendance_date)
+        html_body = "\n".join(html_lines)
+        formatted_email_body, subject = get_email_body(html_body)
 
-                    if isinstance(in_date, str):
-                        try:
-                            attendance_date_obj = datetime.strptime(
-                                in_date, "%m-%d-%Y %H:%M:%S")
-                        except ValueError as e:
-                            logging.error(
-                                f"Date format error for Employee {emp_id.rstrip()}: {in_date} - {e}")
-                            continue
-                    else:
-                        attendance_date_obj = in_date
-
-                    formatted_date = attendance_date_obj.strftime(
-                        "%m-%d-%Y %I:%M:%S %p")
-
-                    email_subject = "Unauthorized Sign-In / Out using other devices or Sharing of a Single Device [LOGIN]"
-
-                    send_email(emp_id.rstrip(), email_subject,
-                               formatted_date, att_access_ip, "sharing")
-
-                    save_execution_logs(
-                        emp_id.rstrip(), attendance_date, "sharing", "login")
-
-                    result = (f"Employee ID: {emp_id.rstrip()} | Attendance Date: {attendance_date} "
-                              f"| Logs Time: {formatted_date} | IP Address: {att_access_ip}")
-                    print(result)
-                    logging.info(result)
-
-        print("Done processing the data for login IP address sharing.")
-        logging.info("Done processing the data for login IP address sharing.")
+        send_email(formatted_email_body, subject)
+        # print(EMAIL_SENDER_API)
 
     except Exception as e:
-        logging.error(f"ERROR: processing IP sharing login: {e}")
-        print(f"ERROR: processing IP sharing login: {e}")
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
+        log_api_error_activity("NS vs RMS: Daily Email Sender - get_daily_summary function", e)
 
 
-def get_invalid_logout_for_ip_sharing():
+
+def send_email(hardcoded_data, subject):
     try:
-        conn = connect_db()
-        cursor = conn.cursor()
 
-        query = '''SELECT * FROM vw_hcm_ip_sharing_logout where ATT_ACCESS_IP_OUT <> '' and format(ATTENDANCE_DATE,'MM-dd-yyyy') = format(DATEADD(day, -1, getdate()),'MM-dd-yyyy')'''
-        cursor.execute(query)
 
-        records = cursor.fetchall()
+        To = get_email_recipients("To")
+        Cc = get_email_recipients("Cc")
+        Bcc = ""
+        # Bcc = get_email_recipients("Bcc")
 
-        for row in records:
-            attendance_date = row[0]
-            att_access_ip = row[1]
-            emp_ids = row[2]
+        print(Cc)
 
-            ids = emp_ids.split(",")
-            for emp_id in ids:
-                if not is_executed(emp_id.rstrip(), attendance_date, "sharing"):
-                    print(f"Processing Employee ID: {emp_id.rstrip()}")
+        # Pass the email body from a function into a variable
+        emailbody = hardcoded_data
 
-                    # out_date = get_out_date(emp_id.rstrip(), attendance_date)
-                    # print(out_date)
-
-                    # if isinstance(out_date, str):
-                    #     try:
-                    #         attendance_date_obj = datetime.strptime(
-                    #             out_date, "%Y-%m-%d %H:%M:%S")
-                    #     except ValueError as e:
-                    #         logging.error(
-                    #             f"Date format error for Employee {emp_id.rstrip()}: {out_date} - {e}")
-                    #         continue
-                    # else:
-                    #     attendance_date_obj = out_date
-
-                    out_date = get_out_date(emp_id.rstrip(), attendance_date)
-
-                    if isinstance(out_date, str):
-                        try:
-                            attendance_date_obj = datetime.strptime(
-                                out_date, "%m-%d-%Y %H:%M:%S")
-                        except ValueError as e:
-                            logging.error(
-                                f"Date format error for Employee {emp_id.rstrip()}: {out_date} - {e}")
-                            continue
-                    else:
-                        attendance_date_obj = out_date
-
-                    formatted_date = attendance_date_obj.strftime(
-                        "%m-%d-%Y %I:%M:%S %p")
-
-                    print(f"Formatted Date: {formatted_date}")
-
-                    email_subject = "Unauthorized Sign-In / Out using other devices or Sharing of a Single Device [LOGOUT]"
-
-                    print("Sending email...")
-                    send_email(emp_id.rstrip(), email_subject,
-                               formatted_date, att_access_ip, "sharing")
-
-                    save_execution_logs(
-                        emp_id.rstrip(), attendance_date, "sharing", "logout")
-
-                    result = (f"Employee ID: {emp_id.rstrip()} | Attendance Date: {attendance_date} "
-                              f"| Logs Time: {formatted_date} | IP Address: {att_access_ip}")
-                    print(result)
-                    logging.info(result)
-
-        print("Done processing the data for logout IP address sharing.")
-        logging.info("Done processing the data for logout IP address sharing.")
-
-    except Exception as e:
-        logging.error(f"ERROR: Processing IP sharing login: {e}")
-        print(f"ERROR: Processing IP sharing login: {e}")
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_emp_name(empid):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-        SELECT
-            COALESCE(emp_firstname, '') + ' ' + COALESCE(emp_middlename, '') + ' ' + COALESCE(emp_lastname, '') AS EMP_FULLNAME
-        FROM [dbo].[ERM_EMPLOYEE_MASTER]
-        WHERE EMP_STAFFID = ?
-        '''
-        cursor.execute(query, (empid,))
-
-        record = cursor.fetchone()
-        employee_name = record[0]
-
-        if record:
-            return employee_name
-        else:
-            logging.info(f"Employee {empid} has no name.")
-            return "No Name"
-
-    except Exception as e:
-        print(f"ERROR: Fetching employee name: {e}")
-        logging.info(f"ERROR: Fetching employee name: {e}")
-        return None
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_emp_email(empid):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-        select emp_mailid from [dbo].[ERM_EMPLOYEE_MASTER] where EMP_STAFFID = ?
-        '''
-
-        cursor.execute(query, (empid,))
-        record = cursor.fetchone()
-        emp_email = record[0]
-
-        if record:
-            return emp_email
-        else:
-            logging.info(f"Employee {empid} has no email.")
-            return "No Email"
-
-    except Exception as e:
-        print(f"ERROR: Fetching employee email: {e}")
-        logging.info(f"ERROR: Fetching employee email: {e}")
-        return None
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_emp_il_id(empid):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-        select EMP_REPORTINGTO from [dbo].[ERM_EMPLOYEE_MASTER] where EMP_STAFFID = ?
-        '''
-
-        cursor.execute(query, (empid,))
-        record = cursor.fetchone()
-        idl_id = record[0]
-
-        if record:
-            return idl_id
-        else:
-            logging.info(f"Employee {empid} has no IL.")
-            return "No IL ID"
-
-    except Exception as e:
-        print(f"ERROR: Fetching IL ID: {e}")
-        logging.info(f"ERROR: Fetching IL ID: {e}")
-        return None
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_emp_il_name(il_id):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-        select emp_firstname + ' ' + emp_middlename + ' ' + emp_lastname as EMP_FULLNAME from [dbo].[ERM_EMPLOYEE_MASTER] where EMP_STAFFID = ?
-        '''
-
-        cursor.execute(query, (il_id,))
-        record = cursor.fetchone()
-        il_id = record[0]
-
-        if record:
-            return il_id
-        else:
-            logging.info(f"Employee {il_id} has no name.")
-            return "No IL Name"
-
-    except Exception as e:
-        print(f"ERROR: Fetching IL Name: {e}")
-        logging.info(f"ERROR: Fetching IL Name: {e}")
-        return None
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_emp_il_email(il_id):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-       select emp_mailid from [dbo].[ERM_EMPLOYEE_MASTER] where EMP_STAFFID = ?
-        '''
-
-        cursor.execute(query, (il_id,))
-        record = cursor.fetchone()
-        il_email = record[0]
-
-        if record:
-            return il_email
-        else:
-            logging.info(f"Employee {il_id} has no email.")
-            return "No Email"
-
-    except Exception as e:
-        print(f"ERROR: Fetching IL Email: {e}")
-        logging.info(f"ERROR: Fetching IL Email: {e}")
-        return None
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_out_date(empid, attendance_date):
-    try:
-        #     conn = connect_db()
-        #     cursor = conn.cursor()
-
-        #     query = '''
-        #    select out_date from ATTENDANCE_REGISTER where EMP_STAFFID = ? and ATTENDANCE_DATE = ?
-        #     '''
-        #     cursor.execute(query, (empid, attendance_date))
-
-        #     record = cursor.fetchone()
-        #     out_date = record[0]
-
-        #     # if record:
-        #     #     out_date_obj = datetime.strptime(out_date, "%Y-%m-%d %H:%M:%S")
-        #     #     return out_date_obj
-        #     # else:
-        #     #     logging.info(
-        #     #         f"Employee {empid} has no out date for the given attendance date.")
-        #     #     return "No out date"
-
-        #     if isinstance(out_date, str):
-        #         try:
-        #             attendance_date_obj = datetime.strptime(
-        #                 out_date, "%m-%d-%Y %H:%M:%S")
-        #         except ValueError as e:
-        #             logging.error(
-        #                 f"Date format error for Employee {empid.rstrip()}: {out_date} - {e}")
-        #     else:
-        #         attendance_date_obj = out_date
-
-        #     formatted_date = attendance_date_obj.strftime(
-        #         "%m-%d-%Y %I:%M:%S %p")
-
-        #     return formatted_date
-
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-        select out_date from ATTENDANCE_REGISTER where EMP_STAFFID = ? and ATTENDANCE_DATE = ?
-        '''
-        cursor.execute(query, (empid, attendance_date))
-
-        record = cursor.fetchone()
-        out_date = record[0]
-
-        if record:
-            return out_date
-        else:
-            logging.info(
-                f"Employee {empid} has no OUT date for the given attendance date.")
-            return "No out date"
-
-    except Exception as e:
-        print(f"ERROR: Fetching out date: {e}")
-        logging.error(f"ERROR: Fetching out date for employee {empid}: {e}")
-        return None
-
-# def get_out_date(empid, attendance_date):
-#     try:
-#         conn = connect_db()
-#         cursor = conn.cursor()
-
-#         query = '''
-#         select out_date from ATTENDANCE_REGISTER where EMP_STAFFID = ? and ATTENDANCE_DATE = ?
-#         '''
-#         cursor.execute(query, (empid, attendance_date))
-
-#         record = cursor.fetchone()
-#         out_date = record[0]
-
-#         if out_date:
-#             try:
-#                 out_date_obj = datetime.strptime(out_date, "%Y-%m-%d %H:%M:%S")
-
-#                 formatted_out_date = out_date_obj.strftime(
-#                     "%Y-%m-%d %H-%M-%S %p")
-#                 return formatted_out_date
-
-#             except ValueError as e:
-#                 logging.error(
-#                     f"Date format error for Employee {empid}: {out_date} - {e}")
-#                 return "Invalid date format"
-#         else:
-#             logging.info(
-#                 f"Employee {empid} has no out date for the given attendance date.")
-#             return "No out date"
-
-#     except Exception as e:
-#         print(f"ERROR: Fetching out date: {e}")
-#         logging.error(f"ERROR: Fetching out date for employee {empid}: {e}")
-#         return None
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def get_in_date(empid, attendance_date):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-       select in_date from ATTENDANCE_REGISTER where EMP_STAFFID = ? and ATTENDANCE_DATE = ?
-        '''
-        cursor.execute(query, (empid, attendance_date))
-
-        record = cursor.fetchone()
-        in_date = record[0]
-
-        if record:
-            return in_date
-        else:
-            logging.info(
-                f"Employee {empid} has no IN date for the given attendance date.")
-            return "No out date"
-
-    except Exception as e:
-        print(f"Error fetching out date: {e}")
-        logging.error(f"ERROR: Fetching IN date for employee {empid}: {e}")
-        return None
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def send_email(empid, subject, attendance_date, ip_address, type):
-    try:
-        cc = get_emp_il_email(get_emp_il_id(empid))
-        bcc = os.getenv('HRVP_EMAIL')
-
-        if type == "unauthorized":
-            emailbody = get_email_body(empid, attendance_date, ip_address)
-        else:
-            emailbody = get_email_body_for_sharing_ip(
-                empid, attendance_date, ip_address)
+        print(emailbody)
 
         # TODO: Uncomment this for production use
         payload = json.dumps({
-            "receiver_email": get_emp_email(empid),
-            "cc_email": [cc],
-            "bcc_email": [bcc],
+            "receiver_email": To,
+            "display_name": "NS vs RMS Notifier",
+            "cc_email": Cc,
+            "bcc_email": Bcc,
             "subject": subject,
             "body": emailbody,
             "is_html": 'true'
@@ -567,9 +125,10 @@ def send_email(empid, subject, attendance_date, ip_address, type):
 
         # TODO: Comment out this for production use
         # payload = json.dumps({
-        #     "receiver_email": "gilbert.laman@primergrp.com",
+        #     "receiver_email": "jhon.yleana@primergrp.com",
+        #     "From": "NS vs RMS Notifier <notification@primergrp.com>",
         #     "cc_email": ["jhon.yleana@primergrp.com"],
-        #     "bcc_email": ["iris.garcia@primergrp.com"],
+        #     "bcc_email": ["err.senson@primergrp.com "],
         #     "subject": subject,
         #     "body": emailbody,
         #     "is_html": 'true'
@@ -577,201 +136,119 @@ def send_email(empid, subject, attendance_date, ip_address, type):
         headers = {
             'Content-Type': 'application/json'
         }
-
         response = requests.request(
-            "POST", EMAIL_SENDER_API, headers=headers, data=payload)
+        # Comment when testing if Cc, Bcc, To is properly retrieved to prevent confusion
+            "POST", EMAIL_SENDER_API, headers=headers, data=payload
+            )
 
         if response.status_code == 200:
             print("Email sent successfully!")
             logging.info("Email sent successfully.")
-            logging.info(
-                f"Email was also sent to {get_emp_il_name(get_emp_il_id(empid))}")
         else:
             print(f"Failed to send email. Status Code: {response.status_code}")
             logging.error(
                 f"Failed to send email. Status Code: {response.status_code}")
+            log_api_error_activity("NS vs RMS: Daily Email Sender - send_email function", response.text)
+
 
     except Exception as e:
-        print(f"ERROR: Sending email: {e}")
-        logging.info(f"ERROR: Sending email: {e}")
+        log_api_error_activity("NS vs RMS: Daily Email Sender - send_email function", e)
 
 
-def save_execution_logs(empid, attendance_date, type, logtype):
+
+def get_email_body(summary_data):
     try:
-        conn = connect_db()
-        cursor = conn.cursor()
+        current_date = datetime.now()
+        date_to_extract = current_date
+        email_date =  date_to_extract.strftime("%B %d, %Y")
+        subject = f"""NS vs RMS Syncing Daily Report Summary ({email_date})"""
+        LOOKER_REPORT_LINK  = "https://lookerstudio.google.com/reporting/eaa32bdc-6edf-423c-ae7e-422d61922fb4"
+        sanitized_looker_link = html.escape(LOOKER_REPORT_LINK)
 
-        query = '''
-        insert into tbl_Invalid_logs_execution_logs_per_employee (emp_staffid, dateSent, timeSent, type, attendanceDate, logtype) values (?, getdate(), format(getdate(),'hh:mm:ss tt'), ?,?,?)
-            '''
-        cursor.execute(query, (empid.strip(), type, attendance_date, logtype))
+        body = f"""
+                <html>
+                <head>
+                </head>
+                <body>
+                    <b> Hi All,</b>
+                    <br />
+                    <br />
+                    <b>This is an automated NS VS RMS: Daily Syncing Report Email Notification, as of <b style='color:red'> {email_date} </b>
+                    <br />
+                    <br />
+                    <table border = '1' style="border-collapse: collapse; width: 50%;">
+                        <tr style="padding: 7px;">
+                            <td style='text-align:center; background-color: #89CFF0;'>Category Name</td><td style='text-align:center; background-color: #89CFF0;'>Match Count</td><td style='text-align:center; background-color: #89CFF0;'>Not In NS Count</td><td style='text-align:center; background-color: #89CFF0;'>Not In RMS Count</td>
+                            {summary_data}
+                        </tr>
+                    </table>
+                    <br />
 
-        conn.commit()
+                    Please continue using the tool and evaluate if the current document-to-document matching approach meets your needs or requires further improvement. Let’s coordinate on the next steps at your earliest convenience.
+                    <br />
+                    <br />
+                    <p>
+                         For detailed information, You can access the Looker Studio report via this link: <a href = "{sanitized_looker_link}"> NS vs RMS Data Sync Validation</a>
+                    </p>
+                    <br />
+                    <br />
+                    This is a system generated email. No need to reply.
+                </body>
+                </html>
+        """.format(email_date=email_date, summary_data=summary_data, sanitized_looker_link=sanitized_looker_link)
 
-        print(f"Log saved successfully for {empid}.")
-        logging.info(f"Log saved successfully for {empid}.")
+        # Returning multiple values in this format (tuple), for it to be accessible
+
+        return body, subject
+
     except Exception as e:
-        print(f"ERROR: Saving execution log: {e}")
-        logging.error(
-            f"ERROR: Saving execution log for Employee {empid} on {attendance_date}: {e}")
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
+        log_api_error_activity("NS vs RMS: Daily Email Sender - get_email_body function", e)
 
 
-def get_login(empid, attendance_date):
+
+# To display the error in a user-friendly way when debugging
+def log_api_error_activity(title, e):
+    StartDate = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    exc_type, exc_obj, exc_tb = sys.exc_info()
+    file_name = exc_tb.tb_frame.f_code.co_filename
+    line_number = exc_tb.tb_lineno
+
+    print(f"Error occurred in file: {file_name}")
+    print(f"Error occurred on line: {line_number}")
+    print(f"Error message: {e}")
+
+    log_api_activity(StartDate, title, "Failed",
+                     f"Error in file {file_name} at line {line_number}", str(e))
+
+
+def log_api_activity(StartDate, LogTitle, Status, ErrorMessage, Remarks):
     try:
-        conn = connect_db()
-        cursor = conn.cursor()
+        url = f"https://dma-dev-job-logs-174874363586.us-west1.run.app"
+        EndDate = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        query = '''
-        select IN_DATE from [Primer_Prod3].[dbo].[ATTENDANCE_REGISTER] where emp_staffid = ? and attendance_date = ?
-        '''
-        cursor.execute(query, (empid.rstrip(), attendance_date))
-        record = cursor.fetchone()
-        in_date = record[0]
+        print(
+            f"Parameters being sent to log_api_activity: {StartDate}, {EndDate}, {LogTitle}, {Status}, {ErrorMessage}, {Remarks}")
 
-        if record:
-            return in_date
+        payload = {
+            "data": {
+                "StartDate": StartDate,
+                "EndDate": EndDate,
+                "LogTitle": LogTitle,
+                "Status": Status,
+                "ErrorMessage": ErrorMessage,
+                "Remarks": Remarks
+            }
+        }
+
+        response = requests.post(url, json=payload)
+
+        if response.status_code == 200:
+            print(f"API activity logged successfully: {response.text}")
         else:
-            logging.info(f"Employee {empid} has no email.")
-            return "IN_DATE"
-
-    except Exception as e:
-        print(f"ERROR: Fetching employee IN_DATE: {e}")
-        logging.info(f"ERROR: Fetching employee IN_DATE: {e}")
-        return None
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def remove_logs(empid, attendance_date):
-    try:
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        in_date = get_login(empid, attendance_date)
-
-        query = f'''
-        update [Primer_Prod3].[dbo].[ATTENDANCE_REGISTER] set OUT_DATE = '{in_date}' where emp_staffid = ? and attendance_date = ?
-            '''
-        cursor.execute(query, (empid.strip(), attendance_date))
-
-        conn.commit()
-
-        print(f"Log successfully removed for {empid.rstrip()}.")
-        logging.info(f"Log successfully removed for {empid.rstrip()}.")
-    except Exception as e:
-        print(f"ERROR: {e}")
-        logging.error(
-            f"ERROR: {e}")
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
-
-
-def is_executed(empid, attendance_date, type):
-    try:
-        # if isinstance(attendance_date, str):
-        #     formatted_attendance_date = datetime.strptime(
-        #         attendance_date, '%Y-%m-%d')
-        #     print(formatted_attendance_date)
-
-        conn = connect_db()
-        cursor = conn.cursor()
-
-        query = '''
-            SELECT COUNT(*) AS [count] 
-            FROM tbl_Invalid_logs_execution_logs_per_employee 
-            WHERE rtrim(emp_staffid) = rtrim(?) 
-            AND type = ?
-            AND format(CAST(attendanceDate AS DATE),'MM/dd/yyyy') = format(CAST(? AS DATE),'MM/dd/yyyy')
-        '''
-        cursor.execute(query, (empid, type, attendance_date))
-
-        record = cursor.fetchone()
-
-        if record:
-            count = record[0]
             print(
-                f"Count: {count} | Employee ID: {empid} | Type: {type} | Attendance Date: {attendance_date}")
-            return count > 0
-        else:
-            return False
-
+                f"Failed to log API activity: {response.status_code} - {response.text}")
     except Exception as e:
-        print(f"Error in is_executed: {e}")
-        return False
-
-    finally:
-        if cursor:
-            cursor.close()
-        if conn:
-            conn.close()
+        print(f"Exception during logging API activity: {e}")
 
 
-def get_email_body(empid, attendance_date, emp_ip):
-    body = f"""
-    Dear <b>{get_emp_name(empid)}</b>,
-    <p></p>
-    I hope this message finds you well.
-    <p></p>
-    It has come to our attention that an unauthorized sign-out was recorded under your account in the HCM Web-Based Attendance <b>{attendance_date}</b> thru <b style='color:red'>{emp_ip}</b>.
-    <p></p>
-    Please note that signing-in or out outside company premises may be considered as an infraction of our Company's Code of Discipline - C.1 Timing in/out, logging in/out, or inappropriate use of time records, for another employee or conspiring with or arranging for another to do the same.
-    <p></p>
-    This sign-out will be rejected and we kindly ask you to provide clarification to your IL & HRBP on this matter within 48 hours and ensure that such actions are avoided in the future.
-    <p></p>
-    If this was done in error, or if there are any extenuating circumstances, please reach out to your IL and HRBP as soon as possible so we can rectify the situation.
-    <p></p>
-    If you require assistance with the attendance system or have any questions, please don’t hesitate to email hcmsupport@primergrp.com
-    <p></p>
-    Thank you for your attention to this matter.
-    <p></p>
-    <p></p>
-    Best regards,
-    <br />
-    Human Resources Department
-    """
-
-    return body
-
-
-def get_email_body_for_sharing_ip(empid, attendance_date, emp_ip):
-    body = f"""
-    Dear <b>{get_emp_name(empid)}</b>,
-    <p></p>
-    I hope this message finds you well.
-    <p></p>
-    It has come to our attention that an unauthorized log was recorded under your account in the HCM Web-Based Attendance <b>{attendance_date}</b> thru <b style='color:red'>{emp_ip}</b>.
-    <p></p>
-    Please note that logging thru a different device may be considered as an infraction of our Company's Code of Discipline - C.1 Timing in/out, logging in/out, or inappropriate use of time records, for another employee or conspiring with or arranging for another to do the same.
-    <p></p>
-    We kindly ask you to provide clarification to your IL & HRBP on this matter within 48hours and ensure that such actions are avoided in the future.
-    <p></p>
-    If this was done in error, or if there are any extenuating circumstances, please reach out to your IL and HRBP as soon as possible so we can rectify the situation.
-    <p></p>
-    If you require assistance with the attendance system or have any questions, please don’t hesitate to email hcmsupport@primergrp.com
-    <p></p>
-    Thank you for your attention to this matter.
-    <p></p>
-    <p></p>
-    Best regards,
-    <br />
-    Human Resources Department
-    """
-
-    return body
-
-
-get_invalid_logout()
-get_invalid_login_for_ip_sharing()
-get_invalid_logout_for_ip_sharing()
+get_daily_summary()
