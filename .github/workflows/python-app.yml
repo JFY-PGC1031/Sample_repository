@@ -1,0 +1,66 @@
+name: Security Pipeline (Cloud Run)
+
+# Trigger on Pull Request to main
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  security-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Authenticate with Google Cloud
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: '${{ secrets.GCP_SA_KEY }}'
+
+      # Step 3: Run Code Analyzer (Cloud Run)
+      - name: Run Cloud Run Code Analyzer
+        id: code-analyzer
+        run: |
+          echo "Calling Cloud Run Code Analyzer..."
+          RESPONSE=$(curl -s -X POST \
+            -H "Authorization: Bearer $(gcloud auth print-identity-token)" \
+            -F "repo_url=https://github.com/${{ github.repository }}" \
+            https://YOUR-CLOUD-RUN-CODE-ANALYZER-URL)
+          echo "Analyzer response: $RESPONSE"
+          echo "::set-output name=result::$RESPONSE"
+
+      # Step 4: Run Penetration Testing Tool (Cloud Run)
+      - name: Run Cloud Run Pentest Tool
+        id: pentest
+        run: |
+          echo "Calling Cloud Run Pentest Tool..."
+          RESPONSE=$(curl -s -X POST \
+            -H "Authorization: Bearer $(gcloud auth print-identity-token)" \
+            -F "repo_url=https://github.com/${{ github.repository }}" \
+            https://YOUR-CLOUD-RUN-PENTEST-URL)
+          echo "Pentest response: $RESPONSE"
+          echo "::set-output name=result::$RESPONSE"
+
+      # Step 5: Validate Security Results
+      - name: Validate Security Results
+        run: |
+          CA_RESULT="${{ steps.code-analyzer.outputs.result }}"
+          PT_RESULT="${{ steps.pentest.outputs.result }}"
+
+          echo "Code Analyzer result: $CA_RESULT"
+          echo "Pentest result: $PT_RESULT"
+
+          # Fail workflow if any critical issues are found
+          if [[ "$CA_RESULT" == *"CRITICAL"* ]] || [[ "$PT_RESULT" == *"CRITICAL"* ]]; then
+            echo "Security checks failed! Blocking merge."
+            exit 1
+          fi
+
+      # Step 6: Success message
+      - name: Security Checks Passed
+        if: success()
+        run: echo "All security checks passed. Merge is allowed."
